@@ -1,0 +1,97 @@
+[gd_scene load_steps=7 format=3 uid="uid://divbxgdf0lolv"]
+
+[ext_resource type="Script" path="res://background.gd" id="1_40ixc"]
+[ext_resource type="Texture2D" uid="uid://crblu1qq25wsu" path="res://mtfuji.png" id="1_r1os3"]
+[ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_e4xig"]
+[ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="3_gih7t"]
+[ext_resource type="Texture2D" uid="uid://bl33w3etrsawh" path="res://Obsticals nonhuman/toro1.png" id="5_f2y04"]
+[ext_resource type="Texture2D" uid="uid://ce5quqvgvwruw" path="res://Building/temple1.png" id="5_ohyoc"]
+
+[node name="Background" type="ParallaxBackground"]
+script = ExtResource("1_40ixc")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0, 0)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Mtfuji" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(577.5, 323)
+scale = Vector2(1.12598, 1.05941)
+texture = ExtResource("1_r1os3")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.5, 0)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Toriigate" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(233, 460)
+texture = ExtResource("3_gih7t")
+
+[node name="Toriigate2" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(724, 560)
+texture = ExtResource("3_gih7t")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(75, 503)
+scale = Vector2(0.897727, 0.790761)
+texture = ExtResource("2_e4xig")
+
+[node name="Temple1" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(368, 509)
+scale = Vector2(0.385556, 0.477193)
+texture = ExtResource("5_ohyoc")
+
+[node name="Temple2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1011, 423)
+scale = Vector2(0.385556, 0.477193)
+texture = ExtResource("5_ohyoc")
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(219, 524)
+scale = Vector2(0.789773, 0.711957)
+texture = ExtResource("2_e4xig")
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(353, 569.5)
+scale = Vector2(0.897727, 0.790761)
+texture = ExtResource("2_e4xig")
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(497, 577.5)
+scale = Vector2(0.789773, 0.711957)
+texture = ExtResource("2_e4xig")
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1078, 550.75)
+scale = Vector2(0.920454, 0.868207)
+texture = ExtResource("2_e4xig")
+flip_h = true
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(930.25, 553)
+scale = Vector2(0.826705, 0.711957)
+texture = ExtResource("2_e4xig")
+flip_h = true
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(781, 578)
+scale = Vector2(0.897727, 0.790761)
+texture = ExtResource("2_e4xig")
+flip_h = true
+
+[node name="Middle8" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(635.75, 594)
+scale = Vector2(0.826705, 0.728261)
+texture = ExtResource("2_e4xig")
+flip_h = true
+
+[node name="Toro2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(943, 579)
+texture = ExtResource("5_f2y04")
+
+[node name="Toro1" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(193, 564)
+texture = ExtResource("5_f2y04")

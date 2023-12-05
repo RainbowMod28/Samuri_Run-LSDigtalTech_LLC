@@ -1,0 +1,122 @@
+[gd_scene load_steps=13 format=3 uid="uid://d4foct8eeb7ob"]
+
+[ext_resource type="Script" path="res://Player/Player.gd" id="1_4wj3e"]
+[ext_resource type="Texture2D" uid="uid://6yy0ba5g65ew" path="res://samurai1jump1.png" id="2_5bp7e"]
+[ext_resource type="Texture2D" uid="uid://dl0adxcqsoi43" path="res://samurai1walk1.png" id="3_1wii1"]
+[ext_resource type="Texture2D" uid="uid://dgwyp2fuvrruc" path="res://samurai1walk2.png" id="4_5a0dl"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i60x2"]
+radius = 24.25
+height = 72.0001
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nvovx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5bp7e")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5bp7e")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_5bp7e")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_1wii1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5a0dl")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 7.0
+}]
+
+[sub_resource type="Animation" id="Animation_uxtld"]
+resource_name = "Idle"
+
+[sub_resource type="Animation" id="Animation_d1num"]
+resource_name = "Jump"
+
+[sub_resource type="Animation" id="Animation_2t6q2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:zoom")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.6, 1.6)]
+}
+
+[sub_resource type="Animation" id="Animation_fc0p4"]
+resource_name = "Run"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:zoom")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1.6, 1.6)]
+}
+
+[sub_resource type="Animation" id="Animation_r38di"]
+resource_name = "Walk"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cryhe"]
+_data = {
+"Idle": SubResource("Animation_uxtld"),
+"Jump": SubResource("Animation_d1num"),
+"RESET": SubResource("Animation_2t6q2"),
+"Run": SubResource("Animation_fc0p4"),
+"Walk": SubResource("Animation_r38di")
+}
+
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
+script = ExtResource("1_4wj3e")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.749985, -3.05176e-05)
+shape = SubResource("CapsuleShape2D_i60x2")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.411111, 0.420833)
+sprite_frames = SubResource("SpriteFrames_nvovx")
+animation = &"walk"
+frame = 1
+frame_progress = 0.349644
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1, 1)
+zoom = Vector2(1.6, 1.6)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../Camera2D")
+libraries = {
+"": SubResource("AnimationLibrary_cryhe")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]

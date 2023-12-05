@@ -1,0 +1,49 @@
+[gd_scene load_steps=3 format=3 uid="uid://ikk6oqvsk3jy"]
+
+[ext_resource type="Texture2D" uid="uid://b5ynothe7ykdu" path="res://sunset-sky-mountain-orange-yellow-blue-generative-ai.jpg" id="1_60ho2"]
+[ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_0rxcg"]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Sunset-sky-mountain-orange-yellow-blue-generative-ai" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(577.875, 321)
+scale = Vector2(0.206473, 0.201875)
+texture = ExtResource("1_60ho2")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Sunset-sky-mountain-orange-yellow-blue-generative-ai" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(577.875, 321)
+scale = Vector2(0.206473, 0.201875)
+texture = ExtResource("1_60ho2")
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(85, 600)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(261, 587)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(434, 616)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(610, 603)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(784, 604)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(960, 591)
+texture = ExtResource("2_0rxcg")
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1133, 620)
+texture = ExtResource("2_0rxcg")

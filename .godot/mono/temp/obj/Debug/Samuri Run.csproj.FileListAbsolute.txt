@@ -1,0 +1,17 @@
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\Samuri Run.deps.json
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\Samuri Run.runtimeconfig.json
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\Samuri Run.pdb
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.csproj.AssemblyReference.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.AssemblyInfoInputs.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.AssemblyInfo.cs
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.csproj.CoreCompileInputs.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.csproj.CopyComplete
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\refint\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.pdb
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\Samuri Run.genruntimeconfig.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\.godot\mono\temp\obj\Debug\ref\Samuri Run.dll

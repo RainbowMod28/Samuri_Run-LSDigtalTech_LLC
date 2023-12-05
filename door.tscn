@@ -1,0 +1,23 @@
+[gd_scene load_steps=5 format=3 uid="uid://bleeqt61swau8"]
+
+[ext_resource type="Script" path="res://Door.gd" id="1_p6ilx"]
+[ext_resource type="PackedScene" uid="uid://b5d4i7qols8fu" path="res://scene_changer.tscn" id="2_2y2pp"]
+[ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="2_7s31x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jqq4x"]
+size = Vector2(256, 286)
+
+[node name="Door" type="Area2D"]
+script = ExtResource("1_p6ilx")
+
+[node name="SceneChanger" parent="." instance=ExtResource("2_2y2pp")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_jqq4x")
+
+[node name="Toriigate" type="Sprite2D" parent="."]
+position = Vector2(-1, 0)
+texture = ExtResource("2_7s31x")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

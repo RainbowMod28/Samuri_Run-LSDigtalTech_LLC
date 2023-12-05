@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://by36sjn1dk65i"]
+
+[ext_resource type="Script" path="res://NPC.gd" id="1_urgbr"]
+[ext_resource type="Texture2D" uid="uid://0ftxld6v5s1e" path="res://Obsticals/student1.png" id="2_pmgw5"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_273tg"]
+radius = 29.0
+height = 74.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ubiea"]
+radius = 38.0
+height = 104.0
+
+[node name="NPC" type="CharacterBody2D"]
+script = ExtResource("1_urgbr")
+
+[node name="Student1" type="Sprite2D" parent="."]
+position = Vector2(-1, -1)
+scale = Vector2(0.459538, 0.486111)
+texture = ExtResource("2_pmgw5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_273tg")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CapsuleShape2D_ubiea")

@@ -1,0 +1,76 @@
+[gd_scene load_steps=11 format=3 uid="uid://bsa7prt8i80ay"]
+
+[ext_resource type="Script" path="res://card_popup.gd" id="1_j2cx3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4b0ay"]
+size = Vector2(300, 353)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_aadhl"]
+load_path = "res://.godot/imported/Untitled_Artwork-1.png-a8e8ed27d9d1ad2924354c4a79b7146f.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_3k36s"]
+load_path = "res://.godot/imported/Untitled_Artwork-2.png-87dff3302912ab1ed25451df9aebd226.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_oug6l"]
+load_path = "res://.godot/imported/Untitled_Artwork-3.png-89f51e5fb2010b0faad182694d1b74eb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_rhgl3"]
+load_path = "res://.godot/imported/Untitled_Artwork-4.png-3c1cd866f52bb87373237a0a3e3ec484.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dcv6h"]
+load_path = "res://.godot/imported/Untitled_Artwork-5.png-e27cc1588d3e7afa3927617cff890f57.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_31klg"]
+load_path = "res://.godot/imported/Untitled_Artwork-6.png-7bf74034e49baaf284476380052a102d.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2agpe"]
+load_path = "res://.godot/imported/Untitled_Artwork-7.png-edb75163fffdec694f8e6d2d58908d70.ctex"
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_o2lyf"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_aadhl")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_3k36s")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_oug6l")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_rhgl3")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_dcv6h")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_31klg")
+}, {
+"duration": 1.0,
+"texture": SubResource("CompressedTexture2D_2agpe")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Card" type="Area2D"]
+scale = Vector2(0.279999, 0.214383)
+script = ExtResource("1_j2cx3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_4b0ay")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, 0.999985)
+scale = Vector2(0.315273, 0.378323)
+sprite_frames = SubResource("SpriteFrames_o2lyf")
+frame_progress = 0.128163
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(3.57144, 4.66455)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://jngfjsgfjsh3"]
+
+[ext_resource type="Script" path="res://Coin.gd" id="1_0km4y"]
+[ext_resource type="Texture2D" uid="uid://dc7gb00abo1jy" path="res://goldcoins.png" id="2_4ko6m"]
+[ext_resource type="Texture2D" uid="uid://dgsybc8y0ue77" path="res://goldcoin1.png" id="3_dcxq5"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5uoxv"]
+radius = 28.0179
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oorws"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(0, 0, 841, 845)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtdo8"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(928, 0, 927, 845)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hx2gi"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(1812, 0, 905, 845)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_slg22"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(2620, 0, 654, 845)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3texq"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(3305, 0, 660, 845)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ae3nh"]
+atlas = ExtResource("2_4ko6m")
+region = Rect2(4125, 0, 824, 845)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_22poi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oorws")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtdo8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hx2gi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_slg22")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3texq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ae3nh")
+}],
+"loop": true,
+"name": &"default",
+"speed": 12.0
+}]
+
+[node name="Coin" type="Area2D"]
+script = ExtResource("1_0km4y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5uoxv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2.11758e-22, 0)
+scale = Vector2(0.0809157, 0.0619268)
+sprite_frames = SubResource("SpriteFrames_22poi")
+frame = 2
+frame_progress = 0.495532
+
+[node name="Goldcoin1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(1, -2.38419e-07)
+scale = Vector2(0.341195, 0.346875)
+texture = ExtResource("3_dcxq5")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

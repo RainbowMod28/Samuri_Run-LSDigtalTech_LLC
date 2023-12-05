@@ -1,0 +1,69 @@
+[gd_scene load_steps=4 format=3 uid="uid://dymyyd15hibik"]
+
+[ext_resource type="Script" path="res://Speech.gd" id="1_dcw2w"]
+[ext_resource type="Texture2D" uid="uid://dnulv02ythdln" path="res://r- beginning resized/hear copy.png" id="2_itjj5"]
+[ext_resource type="Texture2D" uid="uid://lwj2ny7tr640" path="res://Untitled_Artwork.webp" id="2_oorp4"]
+
+[node name="SpeechChecker" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1157.0
+offset_bottom = 649.0
+script = ExtResource("1_dcw2w")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Control"]
+layer = -1
+
+[node name="UntitledArtwork" type="Sprite2D" parent="Control/CanvasLayer"]
+position = Vector2(706, -23)
+rotation = 1.57466
+scale = Vector2(3.52874, 2.5659)
+texture = ExtResource("2_oorp4")
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 440.0
+offset_top = 240.0
+offset_right = 658.0
+offset_bottom = 298.0
+text = "validate"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = -1.0
+offset_right = 408.0
+offset_bottom = 555.0
+
+[node name="HearCopy" type="Sprite2D" parent="Control/RichTextLabel2"]
+position = Vector2(204, 265)
+texture = ExtResource("2_itjj5")
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="Control"]
+layout_mode = 0
+offset_left = 723.0
+offset_top = 12.0
+offset_right = 1105.0
+offset_bottom = 556.0
+text = "Word input"
+
+[node name="Button2" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 47.0
+offset_top = 568.0
+offset_right = 342.0
+offset_bottom = 616.0
+text = "Click for word"
+
+[node name="Button3" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 756.0
+offset_top = 564.0
+offset_right = 1051.0
+offset_bottom = 611.0
+text = "Click to speak"
+
+[connection signal="pressed" from="Control/Button" to="Control" method="_on_button_pressed"]
+[connection signal="pressed" from="Control/Button2" to="Control" method="_on_button_2_pressed"]

@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://dbyij3eorsxl6"]
+
+[ext_resource type="Script" path="res://Obsticals/sensei.gd" id="1_f3s60"]
+[ext_resource type="Script" path="res://Obsticals/CollisionShape2D.gd" id="2_p162x"]
+[ext_resource type="Texture2D" uid="uid://bf116pmpp7wbc" path="res://Obsticals/sensei.png" id="3_noauw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_7pjb8"]
+radius = 23.0
+height = 108.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_rhfyq"]
+radius = 17.0
+height = 92.0
+
+[node name="Sensei" type="CharacterBody2D"]
+script = ExtResource("1_f3s60")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_7pjb8")
+script = ExtResource("2_p162x")
+
+[node name="Sensei" type="Sprite2D" parent="."]
+position = Vector2(0, 3.8147e-06)
+scale = Vector2(0.420635, 0.458333)
+texture = ExtResource("3_noauw")
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+position = Vector2(1, -1)
+shape = SubResource("CapsuleShape2D_rhfyq")
