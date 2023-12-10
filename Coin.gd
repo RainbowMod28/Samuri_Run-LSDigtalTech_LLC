@@ -1,5 +1,5 @@
 extends Area2D
-
+#Just the coin collection program, adds 10 each time it's collected
 var Gold = 0
 
 func _on_body_entered(body):

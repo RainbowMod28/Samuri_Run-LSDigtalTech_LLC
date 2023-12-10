@@ -1,5 +1,7 @@
 extends Area2D
 
+#This is the old code for the world transition, this code is no longer in use
+
 var entered = false
 var Gold = 10
 

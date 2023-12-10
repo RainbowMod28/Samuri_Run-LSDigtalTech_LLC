@@ -1,5 +1,5 @@
 extends ParallaxBackground
-
+#This code is for the Parllax Background, making sure how it moves
 
 var scrolling_speed=100
 

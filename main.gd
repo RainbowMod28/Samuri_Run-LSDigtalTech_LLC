@@ -1,5 +1,5 @@
 extends Node2D
-
+#the main screen
 
 func _ready():
 	Utils.saveGame()

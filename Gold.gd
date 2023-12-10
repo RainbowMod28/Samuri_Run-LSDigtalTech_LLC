@@ -1,5 +1,5 @@
 extends Label
-
+#The gold counting label
 func _ready():
 	pass
 

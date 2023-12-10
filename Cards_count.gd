@@ -1,5 +1,5 @@
 extends Label
-
+#This is the code that helps count the code up top
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

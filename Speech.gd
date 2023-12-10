@@ -1,5 +1,5 @@
 extends Control
-
+#WIP
 var wordList = ["rebel", "rule", "right", "cherry"]
 var speechSynthesizer = SpeechSynthesizer.new()
 

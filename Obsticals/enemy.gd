@@ -15,7 +15,7 @@ func _ready():
 		
 func _physics_process(delta):
 	velocity.y += gravity * delta
-	if chase == true:
+	if chase == true: #The chasing function, going after the player
 		if get_node("AnimatedSprite2D").animation !="Death":
 			anim.play("Run")
 		player = get_node("../Player")
@@ -52,7 +52,7 @@ func _on_player_death_body_entered(body):
 
 
 
-func _on_player_collision_body_entered(body):
+func _on_player_collision_body_entered(body): #Attacking System
 	if body.name =="Player":
 		if get_node("AnimatedSprite2D").animation !="Attack":
 			anim.play("Attack")
@@ -60,7 +60,7 @@ func _on_player_collision_body_entered(body):
 		
 		
 	
-func death():
+func death(): #How the enemy should act once killed by player
 	Game.Gold += 5
 	Utils.saveGame()
 	chase = false

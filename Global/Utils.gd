@@ -1,5 +1,5 @@
 extends Node
-
+#This is where everything is stored, so it can be saved on the player's computer
 const SAVE_PATH = "res://savegame.bin"
 
 func saveGame():

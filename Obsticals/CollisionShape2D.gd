@@ -1,5 +1,5 @@
 extends CollisionShape2D
-
+#A code just for a Collision Shape
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

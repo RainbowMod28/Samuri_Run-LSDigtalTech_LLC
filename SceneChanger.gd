@@ -1,5 +1,5 @@
 extends CanvasLayer
-
+#not working yet but should make the transition smoother
 signal scence_changed()
 
 @onready var animation_player = $AnimationPlayer

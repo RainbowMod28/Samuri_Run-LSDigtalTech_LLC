@@ -3,7 +3,7 @@ extends Area2D
 var entered = false
 var Gold = 10
 
-func check_gold_count():
+func check_gold_count(): #At this time this code does not work
 	# Check if the player's gold count equals 190
 	var player = $Player  # Adjust this to your actual player reference
 	if player != null and Gold >= 100:
@@ -11,7 +11,7 @@ func check_gold_count():
 	else:
 		return false
 
-func _on_body_entered(body):
+func _on_body_entered(body): #This is for changing to the next level
 	if body.is_in_group("Player"):
 		get_tree().change_scene_to_file("res://world_2.tscn")
 

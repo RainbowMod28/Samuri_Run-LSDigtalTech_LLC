@@ -1,5 +1,5 @@
 extends Control
-
+#Timer code
 
 func _ready():
 	Reset_Timer()

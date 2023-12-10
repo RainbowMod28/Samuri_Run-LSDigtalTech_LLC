@@ -1,5 +1,5 @@
 extends Label
-
+#The health counting label
 func _ready():
 	pass
 
