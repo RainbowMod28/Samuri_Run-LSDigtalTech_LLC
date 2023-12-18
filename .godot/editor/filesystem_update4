@@ -21,3 +21,24 @@ res://Speech.gd
 res://Obsticals nonhuman/toro_1.gd
 res://Global/Utils.gd
 res://speech_checker.tscn
+res://main.tscn
+res://World.tscn
+res://Player/Player.tscn
+res://background.tscn
+res://Collectables/coin.tscn
+res://Obsticals nonhuman/toro_1.tscn
+res://world_2.tscn
+res://Obsticals/npc.tscn
+res://Obsticals/enemy.tscn
+res://scene_changer.tscn
+res://door.tscn
+res://card_popup.tscn
+res://popup.tscn
+res://Collectables/Jelly_filled_donuts.gd
+res://Collectables/Candy.gd
+res://Collectables/Dumplings.gd
+res://Collectables/sushi.gd
+res://Collectables/Jelly_filled_donuts.tscn
+res://Collectables/Candy.tscn
+res://Collectables/sushi.tscn
+res://Collectables/Dumplings.tscn

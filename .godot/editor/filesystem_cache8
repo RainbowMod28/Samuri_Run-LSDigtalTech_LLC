@@ -1,58 +1,74 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1702180443
+::res://::1702807787
 Area2D2.gd::GDScript::-1::1698217113::0::1::::<>Area2D<>::
-Area2D.gd::GDScript::-1::1699431073::0::1::::<>Area2D<>::
+Area2D.gd::GDScript::-1::1702183023::0::1::::<>Area2D<>::
 back.png::CompressedTexture2D::5114486644051588996::1697050577::1697050578::1::::<><>::
 background2.tscn::PackedScene::582817817205969610::1700003027::0::1::::<><>::uid://b5ynothe7ykdu
-background.gd::GDScript::-1::1701813726::0::1::::<>ParallaxBackground<>::
-background.tscn::PackedScene::7764226843306945163::1701813728::0::1::::<><>::res://background.gd<>uid://crblu1qq25wsu::::res://mtfuji.png<>uid://b1egeqbfexg33::::res://middle.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png<>uid://ce5quqvgvwruw::::res://Building/temple1.png
+background.gd::GDScript::-1::1702183023::0::1::::<>ParallaxBackground<>::
+background.tscn::PackedScene::7764226843306945163::1702638357::0::1::::<><>::res://background.gd<>uid://crblu1qq25wsu::::res://mtfuji.png<>uid://b1egeqbfexg33::::res://middle.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png<>uid://ce5quqvgvwruw::::res://Building/temple1.png
 cards.gd::GDScript::-1::1699254739::0::1::::<>Node2D<>::
 cards.tscn::PackedScene::8948622413283400532::1699219733::0::1::::<><>::
-Cards_count.gd::GDScript::-1::1701763703::0::1::::<>Label<>::
-card_popup.gd::GDScript::-1::1701765254::0::1::::<>Area2D<>::
-card_popup.tscn::PackedScene::3651790523614406244::1701813732::0::1::::<><>::res://card_popup.gd
-Coin.gd::GDScript::-1::1699252515::0::1::::<>Area2D<>::
+Cards_count.gd::GDScript::-1::1702183023::0::1::::<>Label<>::
+card_popup.gd::GDScript::-1::1702183023::0::1::::<>Area2D<>::
+card_popup.tscn::PackedScene::3651790523614406244::1702638358::0::1::::<><>::res://card_popup.gd
+Coin.gd::GDScript::-1::1702183023::0::1::::<>Area2D<>::
 collision.png::CompressedTexture2D::2939713074214313558::1697050577::1697050578::1::::<><>::
-Control.gd::GDScript::-1::1701750635::0::1::::<>Control<>::
-Door.gd::GDScript::-1::1700159402::0::1::::<>Area2D<>::
-door.tscn::PackedScene::3167027962440070681::1701813732::0::1::::<><>::res://Door.gd<>uid://b5d4i7qols8fu::::res://scene_changer.tscn<>uid://d0083pj4sk8n0::::res://toriigate.png
-Gold.gd::GDScript::-1::1697488991::0::1::::<>Label<>::
+Control.gd::GDScript::-1::1702183023::0::1::::<>Control<>::
+Door.gd::GDScript::-1::1702183024::0::1::::<>Area2D<>::
+door.tscn::PackedScene::3167027962440070681::1702638358::0::1::::<><>::res://Door.gd<>uid://b5d4i7qols8fu::::res://scene_changer.tscn<>uid://d0083pj4sk8n0::::res://toriigate.png
+Gold.gd::GDScript::-1::1702183024::0::1::::<>Label<>::
 goldcoin1.png::CompressedTexture2D::7619013063250769888::1697050224::1697050229::1::::<><>::
 goldcoins.png::CompressedTexture2D::7366067265941565426::1697050224::1697050230::1::::<><>::
-HP.tres.gd::GDScript::-1::1698816595::0::1::::<>Label<>::
+HP.tres.gd::GDScript::-1::1702183024::0::1::::<>Label<>::
 icon.svg::CompressedTexture2D::4760330271823477242::1696284320::1696286909::1::::<><>::
+image1_0.jpg::CompressedTexture2D::1201281380637028060::1702633482::1702633411::1::::<><>::
 Japanese Wall Set.png::CompressedTexture2D::6020949649874403847::1698206474::1698206476::1::::<><>::
-main.gd::GDScript::-1::1697486855::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7370343858096946281::1701813726::0::1::::<><>::res://main.gd<>uid://divbxgdf0lolv::::res://background.tscn
+main.gd::GDScript::-1::1702183024::0::1::::<>Node2D<>::
+main.tscn::PackedScene::7370343858096946281::1702638356::0::1::::<><>::res://main.gd<>uid://divbxgdf0lolv::::res://background.tscn
 middle.png::CompressedTexture2D::4219960416582241604::1697050577::1697050578::1::::<><>::
 mtfuji.png::CompressedTexture2D::5968821080873568880::1698205115::1697050229::1::::<><>::
 new_script.gd::GDScript::-1::1697781156::0::1::::<>Node<>::
 NPC.gd::GDScript::-1::1701108048::0::1::::<>CharacterBody2D<>::
 popup.cs::CSharpScript::-1::1701746599::0::1::::<><>::
-popup.gd::GDScript::-1::1701813726::0::1::::<>Control<>::
-popup.tscn::PackedScene::7727974735589557366::1701813732::0::1::::<><>::res://popup.gd
+popup.gd::GDScript::-1::1702183025::0::1::::<>Control<>::
+popup.tscn::PackedScene::7727974735589557366::1702638359::0::1::::<><>::res://popup.gd
 README.md::TextFile::-1::1701812587::0::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::1520200229541780965::1702640173::0::1::::<><>::
 samurai1jump1.png::CompressedTexture2D::2226901125446140206::1697050224::1697050229::1::::<><>::
 samurai1walk1.png::CompressedTexture2D::7982955344209111974::1697085523::1697085525::1::::<><>::
 samurai1walk2.png::CompressedTexture2D::7627296845023717126::1697085523::1697085525::1::::<><>::
-SceneChanger.gd::GDScript::-1::1699858014::0::1::::<>CanvasLayer<>::
-scene_changer.tscn::PackedScene::4500055911353335234::1701813731::0::1::::<><>::res://SceneChanger.gd
-Speech.gd::GDScript::-1::1701121803::0::1::::<>Control<>::
-speech_checker.tscn::PackedScene::8870067097428608526::1701813732::0::1::::<><>::res://Speech.gd<>uid://dnulv02ythdln::::res://r- beginning resized/hear copy.png<>uid://lwj2ny7tr640::::res://Untitled_Artwork.webp
+SceneChanger.gd::GDScript::-1::1702183025::0::1::::<>CanvasLayer<>::
+scene_changer.tscn::PackedScene::4500055911353335234::1702638358::0::1::::<><>::res://SceneChanger.gd
+Speech.gd::GDScript::-1::1702805553::0::1::::<>Control<>::
+speech_checker.tscn::PackedScene::8870067097428608526::1702807111::0::1::::<><>::res://Speech.gd<>uid://c1rm688nlxly6::::res://Cards/Untitled_Artwork-7.png<>uid://rd56tyysudaq::::res://image1_0.jpg<>uid://bf116pmpp7wbc::::res://Obsticals/sensei.png<>uid://0ftxld6v5s1e::::res://Obsticals/student1.png
 sunset-sky-mountain-orange-yellow-blue-generative-ai.jpg::CompressedTexture2D::4542446389934882850::1698206178::1698206186::1::::<><>::
 tile.png::CompressedTexture2D::3243741403976836403::1697050225::1697050230::1::::<><>::
 tileset.png::CompressedTexture2D::3389315394909646613::1697050577::1697050578::1::::<><>::
 Timer.gd::GDScript::-1::1697998937::0::1::::<>RefCounted<>::
 toriigate.png::CompressedTexture2D::8967647051967842471::1697050225::1697050230::1::::<><>::
 Untitled_Artwork.webp::CompressedTexture2D::818088981336888487::1701121462::1701121465::1::::<><>::
-World.tscn::PackedScene::2310376348343739167::1701813727::0::1::::<><>::uid://devas73wpt21i::::res://Tree assets pack/tree (6).png<>uid://boj2r87k3kntl::::res://tileset.png<>uid://bleeqt61swau8::::res://door.tscn<>res://background.gd<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://ce4q33busob21::::res://back.png<>uid://2jb8mnqk7isk::::res://—Pngtree—red sun mount fuji snow_4515945.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://dbyij3eorsxl6::::res://Obsticals/sensei.tscn<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd<>uid://bra8c2mq3v8gs::::res://Obsticals nonhuman/toro_1.tscn<>uid://by36sjn1dk65i::::res://Obsticals/npc.tscn<>res://Cards_count.gd<>uid://bsa7prt8i80ay::::res://card_popup.tscn
-world_2.tscn::PackedScene::4086096130328368559::1701813730::0::1::::<><>::uid://ikk6oqvsk3jy::::res://background2.tscn<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://bmhj7g0fqhyyl::::res://tile.png<>uid://cgpo0spu7vam5::::res://Tree assets pack/tree (5).png<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://qcgbtb0dcgtx::::res://Tree assets pack/tree (8).png<>uid://be2f5mildi8k4::::res://Tree assets pack/tree (1).png<>uid://b0gh0okeib4bh::::res://Tree assets pack/tree (9).png<>uid://cfm7duswiv8ap::::res://Building/buildingdoorway.png<>res://Gold.gd<>uid://betuo7xmbgsqp::::res://Building/building2 (1).png<>res://HP.tres.gd<>uid://ce5quqvgvwruw::::res://Building/temple1.png<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Control.gd<>uid://cf3lc7yulqfsb::::res://Obsticals/enemy.tscn
+World.tscn::PackedScene::2310376348343739167::1702638357::0::1::::<><>::uid://devas73wpt21i::::res://Tree assets pack/tree (6).png<>uid://boj2r87k3kntl::::res://tileset.png<>uid://bleeqt61swau8::::res://door.tscn<>res://background.gd<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://ce4q33busob21::::res://back.png<>uid://2jb8mnqk7isk::::res://—Pngtree—red sun mount fuji snow_4515945.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://dbyij3eorsxl6::::res://Obsticals/sensei.tscn<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd<>uid://bra8c2mq3v8gs::::res://Obsticals nonhuman/toro_1.tscn<>uid://by36sjn1dk65i::::res://Obsticals/npc.tscn<>res://Cards_count.gd<>uid://bsa7prt8i80ay::::res://card_popup.tscn
+world_2.tscn::PackedScene::4086096130328368559::1702638357::0::1::::<><>::uid://ikk6oqvsk3jy::::res://background2.tscn<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://bmhj7g0fqhyyl::::res://tile.png<>uid://cgpo0spu7vam5::::res://Tree assets pack/tree (5).png<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://qcgbtb0dcgtx::::res://Tree assets pack/tree (8).png<>uid://be2f5mildi8k4::::res://Tree assets pack/tree (1).png<>uid://b0gh0okeib4bh::::res://Tree assets pack/tree (9).png<>uid://cfm7duswiv8ap::::res://Building/buildingdoorway.png<>res://Gold.gd<>uid://betuo7xmbgsqp::::res://Building/building2 (1).png<>res://HP.tres.gd<>uid://ce5quqvgvwruw::::res://Building/temple1.png<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Control.gd<>uid://cf3lc7yulqfsb::::res://Obsticals/enemy.tscn
 —Pngtree—red sun mount fuji snow_4515945.png::CompressedTexture2D::1913798477309297262::1697218520::1697218521::1::::<><>::
+::res://addons/::1702806876
+::res://addons/speechtotext/::1702807857
+Example.gd::GDScript::-1::1702806877::0::1::::<>Node2D<>::
+Example.tscn::PackedScene::-1::1702806877::0::1::::<><>::res://addons/speechtotext/Example.gd<>res://addons/speechtotext/SpeechToText.gd
+icon.png::CompressedTexture2D::5530059228128655008::1702806877::1702807803::1::::<><>::
+plugin.cfg::TextFile::-1::1702806877::0::1::::<><>::
+Plugin.gd::GDScript::-1::1702806877::0::1::::<>RefCounted<>::
+SpeechToText.gd::GDScript::-1::1702806877::0::1::::<>RefCounted<>::
+::res://addons/speechtotext/lib/::1702806878
+::res://addons/speechtotext/lib/linux/::1702806877
+::res://addons/speechtotext/lib/win32/::1702806879
+::res://addons/speechtotext/model/::1702806879
+::res://addons/speechtotext/model/en-us/::1702806881
+::res://addons/speechtotext/model/en-us/en-us/::1702806882
 ::res://Building/::1700159202
 building2 (1).png::CompressedTexture2D::2707640293366888951::1700159181::1700159202::1::::<><>::
 buildingdoorway.png::CompressedTexture2D::5150507499059938811::1700159181::1700159202::1::::<><>::
 temple1.png::CompressedTexture2D::5116536135438541954::1700159182::1700159202::1::::<><>::
-::res://Cards/::1700882451
+::res://Cards/::1702807296
 Untitled_Artwork-1.png::CompressedTexture2D::8529784189933687665::1700882448::1700882451::1::::<><>::
 Untitled_Artwork-2.png::CompressedTexture2D::2012488169934134031::1700882448::1700882451::1::::<><>::
 Untitled_Artwork-3.png::CompressedTexture2D::1043232798300283758::1700882448::1700882451::1::::<><>::
@@ -60,20 +76,40 @@ Untitled_Artwork-4.png::CompressedTexture2D::4457906655121635035::1700882448::17
 Untitled_Artwork-5.png::CompressedTexture2D::801370588809585674::1700882448::1700882451::1::::<><>::
 Untitled_Artwork-6.png::CompressedTexture2D::2904781557722223463::1700882448::1700882451::1::::<><>::
 Untitled_Artwork-7.png::CompressedTexture2D::6633631472173687875::1700882448::1700882450::1::::<><>::
-::res://Collectables/::1701813730
-coin.tscn::PackedScene::658910235267491626::1701813729::0::1::::<><>::res://Coin.gd<>uid://dc7gb00abo1jy::::res://goldcoins.png<>uid://dgsybc8y0ue77::::res://goldcoin1.png
-::res://Global/::1701765072
-Game.gd::GDScript::-1::1701765072::0::1::::<>Node<>::
-Utils.gd::GDScript::-1::1701764988::0::1::::<>Node<>::
-::res://Obsticals/::1701813731
-Area2D.gd::GDScript::-1::1698218302::0::1::::<>Area2D<>::
-CollisionShape2D.gd::GDScript::-1::1697222468::0::1::::<>CollisionShape2D<>::
-enemy.gd::GDScript::-1::1698817529::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::5182261339944832681::1701813731::0::1::::<><>::res://Obsticals/enemy.gd<>uid://dji10jqixo7ls::::res://Obsticals/png/Idle__000.png<>uid://cxxran82fyqov::::res://Obsticals/png/Attack__000.png<>uid://dgpxxxyfw4shg::::res://Obsticals/png/Attack__001.png<>uid://btyqelia0twen::::res://Obsticals/png/Attack__002.png<>uid://b36frsnatcsln::::res://Obsticals/png/Attack__003.png<>uid://dca47lrngh7yt::::res://Obsticals/png/Attack__004.png<>uid://mjyowj1jockt::::res://Obsticals/png/Attack__005.png<>uid://cla5pxtik8msj::::res://Obsticals/png/Attack__006.png<>uid://di7icg7emjhig::::res://Obsticals/png/Attack__007.png<>uid://dgltd7r8sm734::::res://Obsticals/png/Attack__008.png<>uid://bj3ocshwkrtnr::::res://Obsticals/png/Attack__009.png<>uid://bvelaow30w67v::::res://Obsticals/png/Dead__000.png<>uid://cy7mxw2oj6510::::res://Obsticals/png/Dead__001.png<>uid://bjh8xjd8vgd3h::::res://Obsticals/png/Dead__002.png<>uid://cl3ij4e2x1sl3::::res://Obsticals/png/Dead__003.png<>uid://cmw3la4mn3l4b::::res://Obsticals/png/Dead__004.png<>uid://crd5qdosbnr4t::::res://Obsticals/png/Dead__005.png<>uid://bs5obktvfdfvr::::res://Obsticals/png/Dead__006.png<>uid://b0thqvg2v3v5w::::res://Obsticals/png/Dead__007.png<>uid://bcpsut6xv8vbh::::res://Obsticals/png/Dead__008.png<>uid://bibkeuhg4166b::::res://Obsticals/png/Dead__009.png<>uid://dy4mj3oup3may::::res://Obsticals/png/Idle__001.png<>uid://dlwk8qpru6vf6::::res://Obsticals/png/Idle__002.png<>uid://c7a415gmav4a1::::res://Obsticals/png/Idle__003.png<>uid://gorhd04bj63p::::res://Obsticals/png/Idle__004.png<>uid://took6l2lqtup::::res://Obsticals/png/Idle__005.png<>uid://bs5cvqhsss28u::::res://Obsticals/png/Idle__006.png<>uid://3uhrgwgppesg::::res://Obsticals/png/Idle__007.png<>uid://sqycctdlotvo::::res://Obsticals/png/Idle__008.png<>uid://8nds2ae7sw78::::res://Obsticals/png/Idle__009.png<>uid://b061c1cgjxix4::::res://Obsticals/png/Run__000.png<>uid://b61c6iasvx7e4::::res://Obsticals/png/Run__001.png<>uid://dyfjt1jinfctq::::res://Obsticals/png/Run__002.png<>uid://k4j34b87ks4u::::res://Obsticals/png/Run__003.png<>uid://bnrn5tevgnbi::::res://Obsticals/png/Run__004.png<>uid://iwoa8w12hopc::::res://Obsticals/png/Run__005.png<>uid://ceno0sdopl8vk::::res://Obsticals/png/Run__006.png<>uid://c41w203l3pnp::::res://Obsticals/png/Run__007.png<>uid://cu1av1x2y8bsq::::res://Obsticals/png/Run__008.png<>uid://cu20y0m4uuuf8::::res://Obsticals/png/Run__009.png
-npc.tscn::PackedScene::4130670373163969152::1701813730::0::1::::<><>::res://NPC.gd<>uid://0ftxld6v5s1e::::res://Obsticals/student1.png
-sensei.gd::GDScript::-1::1697222744::0::1::::<>CharacterBody2D<>::
+::res://Cards/godot-speech-to-text-main/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/::1702807300
+Example.gd::GDScript::-1::1702807296::0::1::::<>Node2D<>::
+Example.tscn::PackedScene::-1::1702807296::0::1::::<><>::res://addons/speechtotext/Example.gd<>res://addons/speechtotext/SpeechToText.gd
+icon.png::CompressedTexture2D::5530059228128655008::1702807296::1702807300::1::::<><>::
+plugin.cfg::TextFile::-1::1702807299::0::1::::<><>::
+Plugin.gd::GDScript::-1::1702807299::0::1::::<>RefCounted<>::
+SpeechToText.gd::GDScript::-1::1702807299::0::1::::<>RefCounted<>::
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/lib/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/lib/linux/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/lib/win32/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/model/::1702807296
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/model/en-us/::1702807299
+::res://Cards/godot-speech-to-text-main/addons/speechtotext/model/en-us/en-us/::1702807296
+::res://Collectables/::1702925951
+coin.tscn::PackedScene::658910235267491626::1702638357::0::1::::<><>::res://Coin.gd<>uid://dc7gb00abo1jy::::res://goldcoins.png<>uid://dgsybc8y0ue77::::res://goldcoin1.png
+Untitled_Artwork (1).webp::CompressedTexture2D::2495035407319227421::1702925951::1702925952::1::::<><>::
+Untitled_Artwork (2).webp::CompressedTexture2D::5664782596216700634::1702925951::1702925952::1::::<><>::
+Untitled_Artwork (3).webp::CompressedTexture2D::7911544666102394221::1702925951::1702925952::1::::<><>::
+Untitled_Artwork (4).webp::CompressedTexture2D::2101999367535621262::1702925951::1702925952::1::::<><>::
+::res://Global/::1702183025
+Game.gd::GDScript::-1::1702183024::0::1::::<>Node<>::
+Utils.gd::GDScript::-1::1702183025::0::1::::<>Node<>::
+::res://godot-speech-to-text-main/::1702807787
+::res://Obsticals/::1702638358
+Area2D.gd::GDScript::-1::1702183023::0::1::::<>Area2D<>::
+CollisionShape2D.gd::GDScript::-1::1702183023::0::1::::<>CollisionShape2D<>::
+enemy.gd::GDScript::-1::1702183024::0::1::::<>CharacterBody2D<>::
+enemy.tscn::PackedScene::5182261339944832681::1702638358::0::1::::<><>::res://Obsticals/enemy.gd<>uid://dji10jqixo7ls::::res://Obsticals/png/Idle__000.png<>uid://cxxran82fyqov::::res://Obsticals/png/Attack__000.png<>uid://dgpxxxyfw4shg::::res://Obsticals/png/Attack__001.png<>uid://btyqelia0twen::::res://Obsticals/png/Attack__002.png<>uid://b36frsnatcsln::::res://Obsticals/png/Attack__003.png<>uid://dca47lrngh7yt::::res://Obsticals/png/Attack__004.png<>uid://mjyowj1jockt::::res://Obsticals/png/Attack__005.png<>uid://cla5pxtik8msj::::res://Obsticals/png/Attack__006.png<>uid://di7icg7emjhig::::res://Obsticals/png/Attack__007.png<>uid://dgltd7r8sm734::::res://Obsticals/png/Attack__008.png<>uid://bj3ocshwkrtnr::::res://Obsticals/png/Attack__009.png<>uid://bvelaow30w67v::::res://Obsticals/png/Dead__000.png<>uid://cy7mxw2oj6510::::res://Obsticals/png/Dead__001.png<>uid://bjh8xjd8vgd3h::::res://Obsticals/png/Dead__002.png<>uid://cl3ij4e2x1sl3::::res://Obsticals/png/Dead__003.png<>uid://cmw3la4mn3l4b::::res://Obsticals/png/Dead__004.png<>uid://crd5qdosbnr4t::::res://Obsticals/png/Dead__005.png<>uid://bs5obktvfdfvr::::res://Obsticals/png/Dead__006.png<>uid://b0thqvg2v3v5w::::res://Obsticals/png/Dead__007.png<>uid://bcpsut6xv8vbh::::res://Obsticals/png/Dead__008.png<>uid://bibkeuhg4166b::::res://Obsticals/png/Dead__009.png<>uid://dy4mj3oup3may::::res://Obsticals/png/Idle__001.png<>uid://dlwk8qpru6vf6::::res://Obsticals/png/Idle__002.png<>uid://c7a415gmav4a1::::res://Obsticals/png/Idle__003.png<>uid://gorhd04bj63p::::res://Obsticals/png/Idle__004.png<>uid://took6l2lqtup::::res://Obsticals/png/Idle__005.png<>uid://bs5cvqhsss28u::::res://Obsticals/png/Idle__006.png<>uid://3uhrgwgppesg::::res://Obsticals/png/Idle__007.png<>uid://sqycctdlotvo::::res://Obsticals/png/Idle__008.png<>uid://8nds2ae7sw78::::res://Obsticals/png/Idle__009.png<>uid://b061c1cgjxix4::::res://Obsticals/png/Run__000.png<>uid://b61c6iasvx7e4::::res://Obsticals/png/Run__001.png<>uid://dyfjt1jinfctq::::res://Obsticals/png/Run__002.png<>uid://k4j34b87ks4u::::res://Obsticals/png/Run__003.png<>uid://bnrn5tevgnbi::::res://Obsticals/png/Run__004.png<>uid://iwoa8w12hopc::::res://Obsticals/png/Run__005.png<>uid://ceno0sdopl8vk::::res://Obsticals/png/Run__006.png<>uid://c41w203l3pnp::::res://Obsticals/png/Run__007.png<>uid://cu1av1x2y8bsq::::res://Obsticals/png/Run__008.png<>uid://cu20y0m4uuuf8::::res://Obsticals/png/Run__009.png
+npc.tscn::PackedScene::4130670373163969152::1702638358::0::1::::<><>::res://NPC.gd<>uid://0ftxld6v5s1e::::res://Obsticals/student1.png
+sensei.gd::GDScript::-1::1702183025::0::1::::<>CharacterBody2D<>::
 sensei.png::CompressedTexture2D::2792673532002561740::1697050224::1697781700::1::::<><>::
-sensei.tscn::PackedScene::7279499246394615761::1701813729::0::1::::<><>::res://Obsticals/sensei.gd<>res://Obsticals/CollisionShape2D.gd<>uid://bf116pmpp7wbc::::res://Obsticals/sensei.png
+sensei.tscn::PackedScene::7279499246394615761::1702638357::0::1::::<><>::res://Obsticals/sensei.gd<>res://Obsticals/CollisionShape2D.gd<>uid://bf116pmpp7wbc::::res://Obsticals/sensei.png
 student1.png::CompressedTexture2D::1766238259672510752::1697050224::1697781700::1::::<><>::
 ::res://Obsticals/png/::1698263550
 Attack__000.png::CompressedTexture2D::6435698383297849697::1698263546::1698263549::1::::<><>::
@@ -202,15 +238,15 @@ macaroni.png::CompressedTexture2D::5225693502708382769::1699043409::1699043414::
 nurse.png::CompressedTexture2D::2408826175487923814::1699043410::1699043412::1::::<><>::
 party.png::CompressedTexture2D::5669147303669581793::1699043410::1699043412::1::::<><>::
 samurai.png::CompressedTexture2D::6728435807946130980::1699043410::1699043411::1::::<><>::
-::res://Obsticals nonhuman/::1701813730
+::res://Obsticals nonhuman/::1702638357
 komainu.png::CompressedTexture2D::6361759433177586832::1697050224::1697781668::1::::<><>::
 toro1.png::CompressedTexture2D::3218041381808220403::1697050225::1697781668::1::::<><>::
 toro2.png::CompressedTexture2D::7633185932416485143::1697050225::1697781668::1::::<><>::
-toro_1.gd::GDScript::-1::1701107996::0::1::::<>CharacterBody2D<>::
-toro_1.tscn::PackedScene::3581639695322109514::1701813730::0::1::::<><>::res://Obsticals nonhuman/toro_1.gd<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png
-::res://Player/::1701813728
-Player.gd::GDScript::-1::1701763703::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::9205915063948443749::1701813728::0::1::::<><>::res://Player/Player.gd<>uid://6yy0ba5g65ew::::res://samurai1jump1.png<>uid://dl0adxcqsoi43::::res://samurai1walk1.png<>uid://dgwyp2fuvrruc::::res://samurai1walk2.png
+toro_1.gd::GDScript::-1::1702183025::0::1::::<>CharacterBody2D<>::
+toro_1.tscn::PackedScene::3581639695322109514::1702638357::0::1::::<><>::res://Obsticals nonhuman/toro_1.gd<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png
+::res://Player/::1702638357
+Player.gd::GDScript::-1::1702183024::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::9205915063948443749::1702638357::0::1::::<><>::res://Player/Player.gd<>uid://6yy0ba5g65ew::::res://samurai1jump1.png<>uid://dl0adxcqsoi43::::res://samurai1walk1.png<>uid://dgwyp2fuvrruc::::res://samurai1walk2.png
 ::res://r- beginning resized/::1701810440
 hear copy.png::CompressedTexture2D::8113711317956945975::1700883263::1700883265::1::::<><>::
 ram.png::CompressedTexture2D::5728869419171625399::1700883263::1700883265::1::::<><>::

@@ -1,3 +1,80 @@
-[gd_scene format=3 uid="uid://dymyyd15hibik"]
+[gd_scene load_steps=7 format=3 uid="uid://dymyyd15hibik"]
+
+[ext_resource type="Script" path="res://Speech.gd" id="1_dcw2w"]
+[ext_resource type="Texture2D" uid="uid://c1rm688nlxly6" path="res://Cards/Untitled_Artwork-7.png" id="2_e78us"]
+[ext_resource type="Texture2D" uid="uid://rd56tyysudaq" path="res://image1_0.jpg" id="2_ndtd6"]
+[ext_resource type="Texture2D" uid="uid://bf116pmpp7wbc" path="res://Obsticals/sensei.png" id="3_7ngst"]
+[ext_resource type="Texture2D" uid="uid://0ftxld6v5s1e" path="res://Obsticals/student1.png" id="4_gbf2x"]
+
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_lelr4"]
 
 [node name="SpeechChecker" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="Image10" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(580, 320)
+scale = Vector2(1.13477, 1.14648)
+texture = ExtResource("2_ndtd6")
+
+[node name="UntitledArtwork-7" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(870, 294)
+scale = Vector2(0.729102, 0.609407)
+texture = ExtResource("2_e78us")
+
+[node name="Sensei" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(67, 532)
+scale = Vector2(1.2381, 1.47685)
+texture = ExtResource("3_7ngst")
+
+[node name="Student1" type="Sprite2D" parent="ParallaxBackground"]
+position = Vector2(1091, 541)
+scale = Vector2(1.32081, 1.42593)
+texture = ExtResource("4_gbf2x")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_dcw2w")
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+offset_left = 127.0
+offset_top = 7.0
+offset_right = 464.0
+offset_bottom = 536.0
+
+[node name="Label" type="Label" parent="Control"]
+offset_left = 238.0
+offset_top = -8.0
+offset_right = 357.0
+offset_bottom = 69.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 54
+text = "Test"
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 754.0
+offset_top = 450.0
+offset_right = 1017.0
+offset_bottom = 518.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 21
+text = "Press me to Speak"
+
+[node name="TextEdit" type="TextEdit" parent="Control"]
+layout_mode = 0
+offset_left = 723.0
+offset_top = 82.0
+offset_right = 1039.0
+offset_bottom = 417.0
+text = "Speech"
+
+[node name="mic_Dect" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamMicrophone_lelr4")
+metadata/mic_dect = false
+
+[connection signal="pressed" from="Control/Button" to="Control" method="_on_button_pressed"]
+[connection signal="ready" from="mic_Dect" to="Control" method="_on_mic_dect_ready"]

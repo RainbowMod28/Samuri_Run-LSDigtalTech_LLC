@@ -1,35 +1,36 @@
 extends Control
-#WIP
-var wordList = ["rebel", "rule", "right", "cherry"]
-var speechSynthesizer = SpeechSynthesizer.new()
 
-func _ready():
-	display_random_word()
+var cardImages = [
+	load("res://r- beginning resized/hear copy.png"),
+	load("res://r- beginning resized/ram.png"),
+	load("res://r- beginning resized/ramen.png"),
+	load("res://r- beginning resized/read.png"),
+	load("res://r- beginning resized/rectangle.png"),
+	load("res://r- beginning resized/red.png"),
+	load("res://r- beginning resized/riding.png"),
+	load("res://r- beginning resized/rug.png"),
+	load("res://r- beginning resized/ruler.png"),
+	load("res://r- beginning resized/running.png"),
+	load("res://r- beginning resized/writing.png")
+]
 
-func display_random_word():
-	var randomIndex = randi() % wordList.size()
-	var randomWord = wordList[randomIndex]
-	$RichTextLabel2.text = randomWord
+var words = ["hear", "ram","ramen", "read", "rectange","red",
+"riding","rug","ruler", "running", "writing"]
 
-func _on_Button1_pressed():
-	var wordToSpeak = $RichTextLabel2.text
-	speechSynthesizer.speak(wordToSpeak)
+var card_ditc = {
+	"CardLabel" : words,
+	"Cards" : cardImages
+}
+
+func _ready(): 
+	$TextureRect.texture =(card_ditc["Cards"][0]) #Changes the card's image
+	$Label.text = (card_ditc["CardLabel"][0]) #changes the card'd label/name
+	
 
 
-func _on_RichTextLabel2_text_changed():
-	display_random_word()
-	if generatedWord.to_lower() == recognizedWord.to_lower():
-		# Match: Correct!
-		pass
-	else:
-		# Incorrect, please try again
-		pass
+func _on_mic_dect_ready():
+	pass # Replace with function body.
 
 
 func _on_button_pressed():
-	var generatedWord = $RichTextLabel2.text
-	var recognizedWord = $RichTextLabel3.text.strip_edges()
-
-
-func _on_button_2_pressed():
-	pass
+	pass # Replace with function body.

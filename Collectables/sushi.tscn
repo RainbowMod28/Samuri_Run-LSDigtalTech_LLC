@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://hr3bobcxs3hw"]
+
+[ext_resource type="Texture2D" uid="uid://dkyn8qm8wmkc8" path="res://Collectables/Untitled_Artwork (3).webp" id="1_ilmer"]
+[ext_resource type="Script" path="res://Collectables/sushi.gd" id="1_qd60m"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ik7xd"]
+size = Vector2(86, 46.75)
+
+[node name="sushi" type="Area2D"]
+script = ExtResource("1_qd60m")
+
+[node name="UntitledArtwork(3)" type="Sprite2D" parent="."]
+position = Vector2(0.999992, 3)
+scale = Vector2(0.170833, 0.158333)
+texture = ExtResource("1_ilmer")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ik7xd")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

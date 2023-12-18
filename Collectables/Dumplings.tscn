@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dbykadpaajtk"]
+
+[ext_resource type="Texture2D" uid="uid://47hvft352uju" path="res://Collectables/Untitled_Artwork (4).webp" id="1_lkgni"]
+[ext_resource type="Script" path="res://Collectables/Dumplings.gd" id="1_p1l28"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vwmt0"]
+radius = 20.0185
+height = 93.9761
+
+[node name="dumplings" type="Area2D"]
+script = ExtResource("1_p1l28")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4.76837e-07)
+rotation = -1.56107
+shape = SubResource("CapsuleShape2D_vwmt0")
+
+[node name="UntitledArtwork(4)" type="Sprite2D" parent="."]
+position = Vector2(0, -2.38419e-07)
+scale = Vector2(0.1775, 0.166667)
+texture = ExtResource("1_lkgni")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

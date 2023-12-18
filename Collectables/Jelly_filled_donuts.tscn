@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bivocf35ejyym"]
+
+[ext_resource type="Texture2D" uid="uid://bbsu4seuvd7bt" path="res://Collectables/Untitled_Artwork (1).webp" id="1_d1wpn"]
+[ext_resource type="Script" path="res://Collectables/Jelly_filled_donuts.gd" id="1_wf64g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a5hoe"]
+size = Vector2(87.5, 85)
+
+[node name="JFD" type="Area2D"]
+script = ExtResource("1_wf64g")
+
+[node name="UntitledArtwork(1)" type="Sprite2D" parent="."]
+position = Vector2(-2, -1)
+scale = Vector2(0.16875, 0.173333)
+texture = ExtResource("1_d1wpn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_a5hoe")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

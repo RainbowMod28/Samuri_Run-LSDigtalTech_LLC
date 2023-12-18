@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://byhln2wpd5fxn"]
+[gd_scene load_steps=31 format=3 uid="uid://byhln2wpd5fxn"]
 
 [ext_resource type="PackedScene" uid="uid://ikk6oqvsk3jy" path="res://background2.tscn" id="1_si5ah"]
 [ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="2_mjrd1"]
@@ -16,6 +16,7 @@
 [ext_resource type="PackedScene" uid="uid://jngfjsgfjsh3" path="res://Collectables/coin.tscn" id="10_qbt5c"]
 [ext_resource type="Script" path="res://Control.gd" id="11_lnlwn"]
 [ext_resource type="PackedScene" uid="uid://cf3lc7yulqfsb" path="res://Obsticals/enemy.tscn" id="13_3fgx6"]
+[ext_resource type="PackedScene" uid="uid://bivocf35ejyym" path="res://Collectables/Jelly_filled_donuts.tscn" id="17_wm7eg"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jr6dv"]
 texture = ExtResource("2_ue72d")
@@ -686,6 +687,9 @@ shape = SubResource("RectangleShape2D_gn2cq")
 [node name="CollisionShape2D8" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(1769, 146)
 shape = SubResource("RectangleShape2D_gn2cq")
+
+[node name="JFD" parent="." instance=ExtResource("17_wm7eg")]
+position = Vector2(347, 531)
 
 [connection signal="ready" from="UI/Control/Timer2" to="UI/Control" method="_on_timer_ready"]
 [connection signal="timeout" from="UI/Control/Timer" to="UI/Control" method="_on_timer_timeout"]
