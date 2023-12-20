@@ -31,13 +31,11 @@ offset_bottom = 40.0
 texture = SubResource("ImageTexture_mrt7t")
 
 [node name="Label" type="Label" parent="Window/Camera2D"]
-offset_left = 131.0
-offset_top = 529.0
-offset_right = 365.0
-offset_bottom = 669.0
+offset_right = 355.0
+offset_bottom = 140.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 100
-text = "Hear"
+theme_override_font_sizes/font_size = 62
+text = "placeholder"
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true

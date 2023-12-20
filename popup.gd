@@ -7,19 +7,24 @@ extends Control
 var count = 0
 var text_to_show = "Hear"
 var showtime = 10
+var i = (randi() % 11)
+var j = i
  
 # Called when the node enters the scene tree for the first time.
 func _ready(): #This is the popup function
 	popup.show()
-	$Window/Camera2D/TextureRect.texture =(card_ditc["Cards"][7]) #Changes the card's image
+	$Window/Camera2D/TextureRect.texture =(card_ditc["Cards"][i]) #Changes the card's image
 	count = count + 1
-	$Window/Camera2D/Label.text = (card_ditc["CardLabel"][7]) #changes the card'd label/name
+	$Window/Camera2D/Label.text = (card_ditc["CardLabel"][j]) #changes the card'd label/name
 	$Timer.start(showtime)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	pass
+
+
+	
 
 
 var cardImages = [

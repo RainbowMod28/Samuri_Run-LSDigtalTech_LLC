@@ -42,3 +42,6 @@ res://Collectables/Jelly_filled_donuts.tscn
 res://Collectables/Candy.tscn
 res://Collectables/sushi.tscn
 res://Collectables/Dumplings.tscn
+res://addons/speechtotext/Plugin.gd
+res://addons/speechtotext/SpeechToText.gd
+res://Cards/godot-speech-to-text-main/addons/speechtotext/Plugin.gd

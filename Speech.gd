@@ -1,5 +1,8 @@
 extends Control
 
+var i = (randi() % 11)
+var j = i 
+
 var cardImages = [
 	load("res://r- beginning resized/hear copy.png"),
 	load("res://r- beginning resized/ram.png"),
@@ -23,8 +26,8 @@ var card_ditc = {
 }
 
 func _ready(): 
-	$TextureRect.texture =(card_ditc["Cards"][0]) #Changes the card's image
-	$Label.text = (card_ditc["CardLabel"][0]) #changes the card'd label/name
+	$TextureRect.texture =(card_ditc["Cards"][i]) #Changes the card's image
+	$Label.text = (card_ditc["CardLabel"][j]) #changes the card'd label/name
 	
 
 
