@@ -209,6 +209,7 @@ shape = SubResource("CapsuleShape2D_neuv3")
 scale = Vector2(0.183634, 0.183179)
 sprite_frames = SubResource("SpriteFrames_0q8lb")
 animation = &"Idle"
+frame_progress = 0.898367
 
 [node name="PlayerDetection" type="Area2D" parent="."]
 

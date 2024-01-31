@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj": {}
+    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj": {
+    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj",
+        "projectUniqueName": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj",
         "projectName": "Samuri Run",
-        "projectPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj",
+        "projectPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj",
         "packagesPath": "C:\\Users\\brooklynn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

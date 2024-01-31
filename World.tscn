@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://76ftcn5h62ch"]
+[gd_scene load_steps=27 format=3 uid="uid://76ftcn5h62ch"]
 
 [ext_resource type="Texture2D" uid="uid://devas73wpt21i" path="res://Tree assets pack/tree (6).png" id="1_03nhd"]
 [ext_resource type="Texture2D" uid="uid://boj2r87k3kntl" path="res://tileset.png" id="1_m6u0w"]
@@ -15,7 +15,9 @@
 [ext_resource type="Script" path="res://HP.tres.gd" id="10_1ijjr"]
 [ext_resource type="Script" path="res://Control.gd" id="12_o6mh4"]
 [ext_resource type="PackedScene" uid="uid://bra8c2mq3v8gs" path="res://Obsticals nonhuman/toro_1.tscn" id="12_tvm2b"]
+[ext_resource type="Script" path="res://UI.gd" id="12_ve1qa"]
 [ext_resource type="PackedScene" uid="uid://by36sjn1dk65i" path="res://Obsticals/npc.tscn" id="13_i0vba"]
+[ext_resource type="PackedScene" uid="uid://ddgkmeow8dg4n" path="res://pause_menu.tscn" id="13_xww63"]
 [ext_resource type="Script" path="res://Cards_count.gd" id="15_rl2xs"]
 [ext_resource type="PackedScene" uid="uid://bsa7prt8i80ay" path="res://card_popup.tscn" id="17_4o50m"]
 
@@ -963,6 +965,15 @@ position = Vector2(6066, -95)
 position = Vector2(3825, 70)
 
 [node name="UI" type="CanvasLayer" parent="."]
+script = ExtResource("12_ve1qa")
+
+[node name="Pause Menu" parent="UI" instance=ExtResource("13_xww63")]
+visible = false
+offset_left = 386.0
+offset_top = 112.0
+offset_right = 386.0
+offset_bottom = 112.0
+scale = Vector2(3.8083, 3.69967)
 
 [node name="Gold" type="Label" parent="UI"]
 offset_left = 8.0

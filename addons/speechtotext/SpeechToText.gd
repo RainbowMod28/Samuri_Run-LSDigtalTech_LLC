@@ -16,5 +16,7 @@ func start():
 	speech_to_text.start()
 
 func stop_and_get_result():
-	speech_to_text.stop()   
+	speech_to_text.stop()
+	while not speech_to_text.recognition_finished():
+		await get_tree().idle_frame
 	return speech_to_text.get_result()

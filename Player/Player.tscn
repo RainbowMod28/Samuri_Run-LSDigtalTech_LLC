@@ -1,9 +1,14 @@
-[gd_scene load_steps=13 format=3 uid="uid://d4foct8eeb7ob"]
+[gd_scene load_steps=18 format=3 uid="uid://d4foct8eeb7ob"]
 
 [ext_resource type="Script" path="res://Player/Player.gd" id="1_4wj3e"]
 [ext_resource type="Texture2D" uid="uid://6yy0ba5g65ew" path="res://samurai1jump1.png" id="2_5bp7e"]
-[ext_resource type="Texture2D" uid="uid://dl0adxcqsoi43" path="res://samurai1walk1.png" id="3_1wii1"]
-[ext_resource type="Texture2D" uid="uid://dgwyp2fuvrruc" path="res://samurai1walk2.png" id="4_5a0dl"]
+[ext_resource type="Texture2D" uid="uid://c1oobif3ctcc0" path="res://samurai1idle1.png" id="2_l3pr8"]
+[ext_resource type="Texture2D" uid="uid://bdn1pin4g7k1f" path="res://samurai1idle2.png" id="3_oc0sh"]
+[ext_resource type="Texture2D" uid="uid://3w6y3hv0ba4o" path="res://samurai1idle3.png" id="4_wgaaq"]
+[ext_resource type="Texture2D" uid="uid://dklvjmp048jc7" path="res://samurai1idle4.png" id="5_8dbkt"]
+[ext_resource type="Texture2D" uid="uid://edk5nn7af2yb" path="res://samurai1jump2.png" id="7_55uwj"]
+[ext_resource type="Texture2D" uid="uid://8185efo5s7xe" path="res://samurai1walk1-removebg-preview.png" id="8_yb3bh"]
+[ext_resource type="Texture2D" uid="uid://bar7do3t30gdf" path="res://samurai1walk2-removebg-preview.png" id="9_ig74p"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i60x2"]
 radius = 24.25
@@ -13,11 +18,20 @@ height = 72.0001
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_5bp7e")
+"texture": ExtResource("2_l3pr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_oc0sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_wgaaq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8dbkt")
 }],
 "loop": true,
 "name": &"Idle",
-"speed": 5.0
+"speed": 8.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -30,6 +44,9 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_5bp7e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_55uwj")
 }],
 "loop": true,
 "name": &"jump",
@@ -37,10 +54,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_1wii1")
+"texture": ExtResource("8_yb3bh")
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_5a0dl")
+"texture": ExtResource("9_ig74p")
 }],
 "loop": true,
 "name": &"walk",
@@ -103,11 +120,10 @@ position = Vector2(0.749985, -3.05176e-05)
 shape = SubResource("CapsuleShape2D_i60x2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(0.411111, 0.420833)
+scale = Vector2(0.0496331, 0.0524894)
 sprite_frames = SubResource("SpriteFrames_nvovx")
 animation = &"walk"
-frame = 1
-frame_progress = 0.349644
+frame_progress = 0.127059
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(1, 1)

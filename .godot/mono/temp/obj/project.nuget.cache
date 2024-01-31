@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3YEjMfILLVPjcFCl/hiqLa3smD8EnKZJEHKir/KxJrc5d2lN6nU/NaO1Wp/Kb/mA1CDeLOgWbMEXGmKFQ4sYig==",
+  "dgSpecHash": "a5KwpCLnXXmpgA1LkF1mGZ9//myt74L6H99Mxhaxr+hm16lk9DqTOomtYkK5+xLwSNjl72eK7pMJQv8lQibXdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj",
+  "projectFilePath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brooklynn\\.nuget\\packages\\godot.sourcegenerators\\4.1.2\\godot.sourcegenerators.4.1.2.nupkg.sha512",
     "C:\\Users\\brooklynn\\.nuget\\packages\\godotsharp\\4.1.2\\godotsharp.4.1.2.nupkg.sha512",

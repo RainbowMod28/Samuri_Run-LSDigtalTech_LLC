@@ -24,7 +24,7 @@ func _process(delta):
 	pass
 
 
-	
+
 
 
 var cardImages = [

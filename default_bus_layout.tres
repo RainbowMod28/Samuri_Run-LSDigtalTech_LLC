@@ -1,8 +1,19 @@
-[gd_resource type="AudioBusLayout" load_steps=2 format=3 uid="uid://vwnqf48wmvk4"]
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://vwnqf48wmvk4"]
 
 [sub_resource type="AudioEffectRecord" id="AudioEffectRecord_qu2tu"]
+resource_name = "Record"
+
+[sub_resource type="AudioEffectRecord" id="AudioEffectRecord_prerc"]
 resource_name = "Record"
 
 [resource]
 bus/0/effect/0/effect = SubResource("AudioEffectRecord_qu2tu")
 bus/0/effect/0/enabled = true
+bus/1/name = &"New Bus"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = false
+bus/1/volume_db = 0.0
+bus/1/send = &"Master"
+bus/1/effect/0/effect = SubResource("AudioEffectRecord_prerc")
+bus/1/effect/0/enabled = true

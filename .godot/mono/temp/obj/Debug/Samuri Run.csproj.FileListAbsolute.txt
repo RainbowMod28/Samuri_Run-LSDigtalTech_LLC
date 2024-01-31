@@ -32,3 +32,14 @@ C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\Samuri Run.pdb
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\Samuri Run.genruntimeconfig.cache
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\ref\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.csproj.AssemblyReference.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Mircophone_Detection_SpeechProg.Form1.resources
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\SamuriRun.addons.Mircophone_Detection_SpeechProg.Properties.Resources.resources
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.csproj.GenerateResource.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.AssemblyInfoInputs.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.AssemblyInfo.cs
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.csproj.CoreCompileInputs.cache
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\refint\Samuri Run.dll
+C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.pdb
