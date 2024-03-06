@@ -1,0 +1,110 @@
+[gd_scene load_steps=15 format=3 uid="uid://d3yfftjkimk25"]
+
+[ext_resource type="Script" path="res://Obsticals/Shogun.gd" id="1_djmoa"]
+[ext_resource type="Texture2D" uid="uid://bs7h62reccl2k" path="res://Obsticals/Arcade - Shogun Warriors Fujiyama Buster - Shogun.png" id="1_ip250"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1i16k"]
+atlas = ExtResource("1_ip250")
+region = Rect2(0, 2475, 134, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_v5r6x"]
+atlas = ExtResource("1_ip250")
+region = Rect2(134, 2475, 134, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mckwb"]
+atlas = ExtResource("1_ip250")
+region = Rect2(268, 2475, 134, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ptkwp"]
+atlas = ExtResource("1_ip250")
+region = Rect2(402, 2475, 134, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7pssu"]
+atlas = ExtResource("1_ip250")
+region = Rect2(0, 1064, 118, 152)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ng6y8"]
+atlas = ExtResource("1_ip250")
+region = Rect2(118, 1064, 118, 152)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_omnlq"]
+atlas = ExtResource("1_ip250")
+region = Rect2(236, 1064, 118, 152)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iu4mp"]
+atlas = ExtResource("1_ip250")
+region = Rect2(15, 0, 103, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxh5m"]
+atlas = ExtResource("1_ip250")
+region = Rect2(118, 0, 103, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eo5wb"]
+atlas = ExtResource("1_ip250")
+region = Rect2(221, 0, 103, 165)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nl5v"]
+atlas = ExtResource("1_ip250")
+region = Rect2(324, 0, 103, 165)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_srkht"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1i16k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_v5r6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mckwb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ptkwp")
+}],
+"loop": true,
+"name": &"Attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7pssu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ng6y8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_omnlq")
+}],
+"loop": true,
+"name": &"Damage",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iu4mp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxh5m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eo5wb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nl5v")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_djmoa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_srkht")
+animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="."]
