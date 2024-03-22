@@ -1,11 +1,44 @@
-[gd_scene load_steps=7 format=3 uid="uid://7401cgqmf2mb"]
+[gd_scene load_steps=16 format=3 uid="uid://7401cgqmf2mb"]
 
 [ext_resource type="Texture2D" uid="uid://c0ip8ircmut5d" path="res://dojo_background___night_by_missypena_d3ga2hl-fullview.jpg" id="1_m508i"]
-[ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="2_f0adl"]
+[ext_resource type="PackedScene" uid="uid://efgcgha2o3sx" path="res://Player/player_2.tscn" id="2_xyqcm"]
 [ext_resource type="PackedScene" uid="uid://d3yfftjkimk25" path="res://Obsticals/Shogun.tscn" id="3_wdkv1"]
 [ext_resource type="Script" path="res://Gold.gd" id="4_ugn72"]
 [ext_resource type="Script" path="res://HP.tres.gd" id="5_kh8wv"]
 [ext_resource type="Script" path="res://Control.gd" id="6_5mbax"]
+[ext_resource type="Script" path="res://Actions.gd" id="7_tg4by"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vdvnb"]
+bg_color = Color(1, 0.345098, 0.227451, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j3eh5"]
+bg_color = Color(0.113725, 0.713726, 0.360784, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+expand_margin_left = 1.0
+expand_margin_top = 1.0
+expand_margin_right = 1.0
+expand_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_647qc"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f1lbd"]
+bg_color = Color(0.807843, 0.478431, 0.643137, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vhjve"]
+bg_color = Color(0.768627, 0.560784, 0.305882, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gsr86"]
+bg_color = Color(0.780392, 0.27451, 0.333333, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_oayf3"]
+bg_color = Color(0.882353, 0.290196, 0.247059, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3tyuo"]
+bg_color = Color(0.435294, 0.635294, 0.682353, 1)
 
 [node name="Node2D" type="Node2D"]
 
@@ -17,12 +50,29 @@ position = Vector2(597.75, 330.125)
 scale = Vector2(1.60167, 1.49008)
 texture = ExtResource("1_m508i")
 
-[node name="Player" parent="." instance=ExtResource("2_f0adl")]
-position = Vector2(107, 522)
-scale = Vector2(3.46806, 3.45659)
+[node name="Player2" parent="." instance=ExtResource("2_xyqcm")]
+position = Vector2(136, 518)
+scale = Vector2(0.884818, 0.807596)
 
-[node name="Node2D" parent="." instance=ExtResource("3_wdkv1")]
-position = Vector2(906, 388)
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_left = 416.0
+offset_top = 14.0
+offset_right = 1307.0
+offset_bottom = 698.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
+layout_direction = 2
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+theme_override_styles/background = SubResource("StyleBoxFlat_vdvnb")
+theme_override_styles/fill = SubResource("StyleBoxFlat_j3eh5")
+step = 1.0
+value = 50.0
+
+[node name="Node2D" parent="VBoxContainer" instance=ExtResource("3_wdkv1")]
+position = Vector2(560, 359)
 scale = Vector2(4.34153, 3.86458)
 
 [node name="UI" type="CanvasLayer" parent="."]
@@ -72,5 +122,61 @@ metadata/_edit_use_anchors_ = true
 [node name="Timer" type="Timer" parent="UI/Control"]
 autostart = true
 
+[node name="Actions" type="VBoxContainer" parent="."]
+offset_left = 2.0
+offset_top = 157.0
+offset_right = 250.0
+offset_bottom = 339.0
+size_flags_horizontal = 4
+size_flags_vertical = 6
+script = ExtResource("7_tg4by")
+
+[node name="Run" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_647qc")
+text = "Run"
+
+[node name="Dodge" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_f1lbd")
+text = "Dodge"
+
+[node name="Block" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_vhjve")
+text = "Block"
+
+[node name="Attack_1" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_gsr86")
+text = "Attack 1"
+
+[node name="Attack_2" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_oayf3")
+text = "Attack 2"
+
+[node name="Super" type="Button" parent="Actions"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_3tyuo")
+text = "Super
+"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(1, 2)
+anchor_mode = 0
+
 [connection signal="ready" from="UI/Control/Timer2" to="UI/Control" method="_on_timer_ready"]
 [connection signal="timeout" from="UI/Control/Timer" to="UI/Control" method="_on_timer_timeout"]
+[connection signal="pressed" from="Actions/Run" to="Actions" method="_on_run_pressed"]
+[connection signal="pressed" from="Actions/Dodge" to="Actions" method="_on_dodge_pressed"]
+[connection signal="pressed" from="Actions/Block" to="Actions" method="_on_block_pressed"]
+[connection signal="pressed" from="Actions/Attack_1" to="Actions" method="_on_attack_1_pressed"]
+[connection signal="pressed" from="Actions/Attack_2" to="Actions" method="_on_attack_2_pressed"]
+[connection signal="pressed" from="Actions/Super" to="Actions" method="_on_super_pressed"]

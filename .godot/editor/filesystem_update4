@@ -13,4 +13,7 @@ res://door.tscn
 res://popup.tscn
 res://addons/speechtotext/Example.tscn
 res://Obsticals/Shogun.tscn
+res://Player/player_2.tscn
 res://Obsticals/Shogun.gd
+res://Actions.gd
+res://Player/player_2.gd

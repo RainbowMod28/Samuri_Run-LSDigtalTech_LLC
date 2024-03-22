@@ -30,3 +30,8 @@ func _ready():
 		#velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	#move_and_slide()
+
+
+
+
+
