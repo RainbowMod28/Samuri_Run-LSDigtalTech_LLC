@@ -8,6 +8,7 @@ func saveGame():
 		"playerHP": Game.playerHP,
 		"Gold": Game.Gold,
 		"cardCount" : Game.cardCollection,
+		"shogunHP" : Game.shogunHP,
 	}
 	var jstr = JSON.stringify(data)
 	file.store_line(jstr)
@@ -21,3 +22,4 @@ func loadGame():
 				Game.playerHP = current_line["playerHP"]
 				Game.Gold = current_line["Gold"]
 				Game.cardCollection = current_line["cardCount"]
+				Game.shogunHP = current_line["shogunHP"]

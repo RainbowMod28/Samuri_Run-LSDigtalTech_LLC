@@ -1,6 +1,7 @@
 res://World_3.tscn
 res://background.gd
 res://popup.gd
+res://Battle.gd
 res://main.tscn
 res://pause_menu.tscn
 res://World.tscn
@@ -14,6 +15,6 @@ res://popup.tscn
 res://addons/speechtotext/Example.tscn
 res://Obsticals/Shogun.tscn
 res://Player/player_2.tscn
+res://Global/Game.gd
 res://Obsticals/Shogun.gd
-res://Actions.gd
-res://Player/player_2.gd
+res://Global/Utils.gd
