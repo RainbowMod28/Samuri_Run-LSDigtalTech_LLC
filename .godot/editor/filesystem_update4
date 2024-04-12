@@ -1,8 +1,7 @@
-res://World_3.tscn
+res://default_bus_layout.tres
+res://main.tscn
 res://background.gd
 res://popup.gd
-res://Battle.gd
-res://main.tscn
 res://pause_menu.tscn
 res://World.tscn
 res://Player/Player.tscn
@@ -13,8 +12,11 @@ res://scene_changer.tscn
 res://door.tscn
 res://popup.tscn
 res://addons/speechtotext/Example.tscn
+res://World_3.tscn
 res://Obsticals/Shogun.tscn
 res://Player/player_2.tscn
-res://Global/Game.gd
 res://Obsticals/Shogun.gd
-res://Global/Utils.gd
+res://pause_menu.gd
+res://Battle.gd
+res://Actions.gd
+res://background2.tscn

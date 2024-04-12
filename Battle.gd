@@ -11,9 +11,9 @@ func _ready():
 	await textbox_closed
 	$Actions.show()
 
-func set_health(progress_bar, health, max_health):
+func set_health(progress_bar, shogunHP, max_health):
 	#text = "HP: " + str(Game.shogunHP) 
-	progress_bar.value = health
+	progress_bar.value = Game.shogunHP
 	progress_bar.max_value = max_health
 	progress_bar.get_node("Label").text = "HP" + str(Game.shogunHP)
 
@@ -37,3 +37,27 @@ func _on_run_pressed():
 	await get_tree().create_timer(5).timeout
 	get_tree().change_scene_to_file("res://World.tscn")
 	
+
+
+func _on_dodge_pressed():
+	display_text("UGH YOU DODGED")
+	await textbox_closed
+	pass # Replace with function body.
+
+
+func _on_block_pressed():
+	display_text("")
+	await textbox_closed
+	pass # Replace with function body.
+
+
+func _on_attack_1_pressed():
+	pass # Replace with function body.
+
+
+func _on_attack_2_pressed():
+	pass # Replace with function body.
+
+
+func _on_super_pressed():
+	pass # Replace with function body.

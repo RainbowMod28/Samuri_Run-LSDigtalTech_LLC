@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://76ftcn5h62ch"]
+[gd_scene load_steps=30 format=3 uid="uid://76ftcn5h62ch"]
 
 [ext_resource type="Texture2D" uid="uid://devas73wpt21i" path="res://Tree assets pack/tree (6).png" id="1_03nhd"]
 [ext_resource type="Texture2D" uid="uid://boj2r87k3kntl" path="res://tileset.png" id="1_m6u0w"]
@@ -6,10 +6,9 @@
 [ext_resource type="Script" path="res://background.gd" id="1_xfray"]
 [ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="1_y3pol"]
 [ext_resource type="Texture2D" uid="uid://cr1ufqgmrwgbn" path="res://Japanese Wall Set.png" id="2_whyjw"]
-[ext_resource type="Texture2D" uid="uid://ce4q33busob21" path="res://back.png" id="3_ewetg"]
-[ext_resource type="Texture2D" uid="uid://2jb8mnqk7isk" path="res://—Pngtree—red sun mount fuji snow_4515945.png" id="4_caj4t"]
 [ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="5_82hvx"]
 [ext_resource type="PackedScene" uid="uid://dbyij3eorsxl6" path="res://Obsticals/sensei.tscn" id="6_lw3tu"]
+[ext_resource type="Texture2D" uid="uid://cyqpvsq7r6h77" path="res://backgrounds/background-morning.png" id="6_nxfsc"]
 [ext_resource type="PackedScene" uid="uid://jngfjsgfjsh3" path="res://Collectables/coin.tscn" id="8_ydv82"]
 [ext_resource type="Script" path="res://Gold.gd" id="9_jpcro"]
 [ext_resource type="Script" path="res://HP.tres.gd" id="10_1ijjr"]
@@ -807,6 +806,20 @@ physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_e0f3k")
 sources/0 = SubResource("TileSetAtlasSource_dl4m0")
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dghnq"]
+bg_color = Color(0.619608, 0.819608, 0.913725, 0.905882)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 0.321569)
+
+[sub_resource type="Theme" id="Theme_8vrvd"]
+
+[sub_resource type="FontVariation" id="FontVariation_yfoln"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wxo3b"]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yaycx"]
 size = Vector2(2899, 419)
 
@@ -863,20 +876,15 @@ layer_0/tile_data = PackedInt32Array(130997, 458753, 1, 196533, 458753, 1, 26206
 script = ExtResource("1_xfray")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="Background"]
-motion_scale = Vector2(0, 0)
+motion_scale = Vector2(0.2, 0)
 
-[node name="Back" type="Sprite2D" parent="Background/ParallaxLayer"]
-position = Vector2(585.313, 343.188)
-scale = Vector2(3.03809, 2.92656)
-texture = ExtResource("3_ewetg")
+[node name="Background-morning" type="Sprite2D" parent="Background/ParallaxLayer"]
+position = Vector2(543, 314)
+scale = Vector2(0.412842, 0.607503)
+texture = ExtResource("6_nxfsc")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="Background"]
 motion_scale = Vector2(0, 0)
-
-[node name="—pngtree—redSunMountFujiSnow4515945" type="Sprite2D" parent="Background/ParallaxLayer2"]
-position = Vector2(593, 494)
-scale = Vector2(0.705, 0.6165)
-texture = ExtResource("4_caj4t")
 
 [node name="Door" parent="." instance=ExtResource("1_o2t3u")]
 position = Vector2(7156, -32)
@@ -886,6 +894,33 @@ position = Vector2(-1191, 36)
 
 [node name="Sensei" parent="." instance=ExtResource("6_lw3tu")]
 position = Vector2(-965, 55)
+
+[node name="Panel" type="Panel" parent="Sensei"]
+offset_left = 4.0
+offset_top = -90.0
+offset_right = 117.0
+offset_bottom = -61.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dghnq")
+
+[node name="Label" type="Label" parent="Sensei/Panel"]
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0, 0, 0, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 2.0
+offset_top = 1.0
+offset_right = 2.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_8vrvd")
+theme_override_fonts/font = SubResource("FontVariation_yfoln")
+theme_override_font_sizes/font_size = 7
+theme_override_styles/normal = SubResource("StyleBoxTexture_wxo3b")
+text = "Please use your power of 
+speech to defeat the shogun!"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

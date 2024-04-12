@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://7401cgqmf2mb"]
+[gd_scene load_steps=17 format=3 uid="uid://7401cgqmf2mb"]
 
 [ext_resource type="Texture2D" uid="uid://c0ip8ircmut5d" path="res://dojo_background___night_by_missypena_d3ga2hl-fullview.jpg" id="1_m508i"]
 [ext_resource type="Script" path="res://Battle.gd" id="1_sdi1r"]
@@ -7,7 +7,6 @@
 [ext_resource type="Script" path="res://Gold.gd" id="4_ugn72"]
 [ext_resource type="Script" path="res://HP.tres.gd" id="5_kh8wv"]
 [ext_resource type="Script" path="res://Control.gd" id="6_5mbax"]
-[ext_resource type="Script" path="res://Actions.gd" id="7_tg4by"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vdvnb"]
 bg_color = Color(1, 0.345098, 0.227451, 1)
@@ -144,7 +143,6 @@ offset_right = 250.0
 offset_bottom = 339.0
 size_flags_horizontal = 4
 size_flags_vertical = 6
-script = ExtResource("7_tg4by")
 
 [node name="Run" type="Button" parent="Actions"]
 layout_mode = 2
@@ -217,8 +215,8 @@ text = "TEXT Goes Here!"
 [connection signal="timeout" from="UI/Control/Timer" to="UI/Control" method="_on_timer_timeout"]
 [connection signal="pressed" from="Actions/Run" to="." method="_on_run_pressed"]
 [connection signal="pressed" from="Actions/Run" to="Actions" method="_on_run_pressed"]
-[connection signal="pressed" from="Actions/Dodge" to="Actions" method="_on_dodge_pressed"]
-[connection signal="pressed" from="Actions/Block" to="Actions" method="_on_block_pressed"]
-[connection signal="pressed" from="Actions/Attack_1" to="Actions" method="_on_attack_1_pressed"]
-[connection signal="pressed" from="Actions/Attack_2" to="Actions" method="_on_attack_2_pressed"]
-[connection signal="pressed" from="Actions/Super" to="Actions" method="_on_super_pressed"]
+[connection signal="pressed" from="Actions/Dodge" to="." method="_on_dodge_pressed"]
+[connection signal="pressed" from="Actions/Block" to="." method="_on_block_pressed"]
+[connection signal="pressed" from="Actions/Attack_1" to="." method="_on_attack_1_pressed"]
+[connection signal="pressed" from="Actions/Attack_2" to="." method="_on_attack_2_pressed"]
+[connection signal="pressed" from="Actions/Super" to="." method="_on_super_pressed"]

@@ -1,24 +1,19 @@
 [gd_scene load_steps=3 format=3 uid="uid://ikk6oqvsk3jy"]
 
-[ext_resource type="Texture2D" uid="uid://b5ynothe7ykdu" path="res://sunset-sky-mountain-orange-yellow-blue-generative-ai.jpg" id="1_60ho2"]
+[ext_resource type="Texture2D" uid="uid://dcujckv7ra7r1" path="res://backgrounds/background-daytime.png" id="1_b4ipg"]
 [ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_0rxcg"]
 
 [node name="ParallaxBackground" type="ParallaxBackground"]
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 
-[node name="Sunset-sky-mountain-orange-yellow-blue-generative-ai" type="Sprite2D" parent="ParallaxLayer"]
-position = Vector2(577.875, 321)
-scale = Vector2(0.206473, 0.201875)
-texture = ExtResource("1_60ho2")
-
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
 motion_mirroring = Vector2(1152, 0)
 
-[node name="Sunset-sky-mountain-orange-yellow-blue-generative-ai" type="Sprite2D" parent="ParallaxLayer2"]
-position = Vector2(577.875, 321)
-scale = Vector2(0.206473, 0.201875)
-texture = ExtResource("1_60ho2")
+[node name="Background-daytime" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1136, 418)
+scale = Vector2(0.552246, 0.825277)
+texture = ExtResource("1_b4ipg")
 
 [node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
 position = Vector2(85, 600)

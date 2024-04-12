@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://divbxgdf0lolv"]
 
 [ext_resource type="Script" path="res://background.gd" id="1_40ixc"]
-[ext_resource type="Texture2D" uid="uid://crblu1qq25wsu" path="res://mtfuji.png" id="1_r1os3"]
 [ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_e4xig"]
+[ext_resource type="Texture2D" uid="uid://cyqpvsq7r6h77" path="res://backgrounds/background-morning.png" id="2_k52eg"]
 [ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="3_gih7t"]
 [ext_resource type="Texture2D" uid="uid://bl33w3etrsawh" path="res://Obsticals nonhuman/toro1.png" id="5_f2y04"]
 [ext_resource type="Texture2D" uid="uid://ce5quqvgvwruw" path="res://Building/temple1.png" id="5_ohyoc"]
@@ -11,13 +11,13 @@
 script = ExtResource("1_40ixc")
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
-motion_scale = Vector2(0, 0)
+motion_scale = Vector2(0.3, 0)
 motion_mirroring = Vector2(1152, 0)
 
-[node name="Mtfuji" type="Sprite2D" parent="ParallaxLayer"]
-position = Vector2(577.5, 323)
-scale = Vector2(1.12598, 1.05941)
-texture = ExtResource("1_r1os3")
+[node name="Background-morning" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(-28, 289)
+scale = Vector2(0.556152, 0.68429)
+texture = ExtResource("2_k52eg")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
 motion_scale = Vector2(0.5, 0)
