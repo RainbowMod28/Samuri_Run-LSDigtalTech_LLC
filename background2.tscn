@@ -7,13 +7,17 @@
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="."]
 
+[node name="Background-daytime" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(2053, 277)
+texture = ExtResource("1_b4ipg")
+
+[node name="Background-daytime2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(6146, 277)
+texture = ExtResource("1_b4ipg")
+flip_h = true
+
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
 motion_mirroring = Vector2(1152, 0)
-
-[node name="Background-daytime" type="Sprite2D" parent="ParallaxLayer2"]
-position = Vector2(1136, 418)
-scale = Vector2(0.552246, 0.825277)
-texture = ExtResource("1_b4ipg")
 
 [node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
 position = Vector2(85, 600)

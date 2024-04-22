@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1712948331
-Actions.gd::GDScript::-1::1712941090::0::1::::<>VBoxContainer<>::
+::res://::1713758621
+Actions.gd::GDScript::-1::1712948638::0::1::::<>VBoxContainer<>::
 Area2D2.gd::GDScript::-1::1708650922::0::1::::<>Area2D<>::
 Area2D.gd::GDScript::-1::1708650922::0::1::::<>Area2D<>::
 back.png::CompressedTexture2D::5114486644051588996::1708650930::1708650930::1::::<><>::
-background2.tscn::PackedScene::582817817205969610::1708650930::0::1::::<><>::uid://b5ynothe7ykdu::::res://sunset-sky-mountain-orange-yellow-blue-generative-ai.jpg<>uid://b1egeqbfexg33::::res://middle.png
+background2.tscn::PackedScene::582817817205969610::1712950058::0::1::::<><>::uid://dcujckv7ra7r1::::res://backgrounds/background-daytime.png<>uid://b1egeqbfexg33::::res://middle.png
 background.gd::GDScript::-1::1712947122::0::1::::<>ParallaxBackground<>::
-background.tscn::PackedScene::7764226843306945163::1712947902::0::1::::<><>::res://background.gd<>uid://crblu1qq25wsu::::res://mtfuji.png<>uid://b1egeqbfexg33::::res://middle.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png<>uid://ce5quqvgvwruw::::res://Building/temple1.png
-Battle.gd::GDScript::-1::1712948331::0::1::::<>Control<>::
+background.tscn::PackedScene::7764226843306945163::1712950057::0::1::::<><>::res://background.gd<>uid://b1egeqbfexg33::::res://middle.png<>uid://cyqpvsq7r6h77::::res://backgrounds/background-morning.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png<>uid://ce5quqvgvwruw::::res://Building/temple1.png
+Battle.gd::GDScript::-1::1712948638::0::1::::<>Control<>::
 cards.gd::GDScript::-1::1708650930::0::1::::<>Node2D<>::
 cards.tscn::PackedScene::8948622413283400532::1708650930::0::1::::<><>::
 Cards_count.gd::GDScript::-1::1708650924::0::1::::<>Label<>::
@@ -16,10 +16,10 @@ card_popup.tscn::PackedScene::3651790523614406244::1708650930::0::1::::<><>::res
 Coin.gd::GDScript::-1::1708650924::0::1::::<>Area2D<>::
 collision.png::CompressedTexture2D::2939713074214313558::1708650930::1708650930::1::::<><>::
 Control.gd::GDScript::-1::1708650924::0::1::::<>Control<>::
-default_bus_layout.tres::AudioBusLayout::1520200229541780965::1712947074::0::1::::<><>::
+default_bus_layout.tres::AudioBusLayout::1520200229541780965::1713757087::0::1::::<><>::
 dojo_background___night_by_missypena_d3ga2hl-fullview.jpg::CompressedTexture2D::6545047613016040619::1709151689::1709151693::1::::<><>::
 Door.gd::GDScript::-1::1708650924::0::1::::<>Area2D<>::
-door.tscn::PackedScene::3167027962440070681::1712947902::0::1::::<><>::res://Door.gd<>uid://b5d4i7qols8fu::::res://scene_changer.tscn<>uid://d0083pj4sk8n0::::res://toriigate.png
+door.tscn::PackedScene::3167027962440070681::1712950058::0::1::::<><>::res://Door.gd<>uid://b5d4i7qols8fu::::res://scene_changer.tscn<>uid://d0083pj4sk8n0::::res://toriigate.png
 Gate_to_Shogun.gd::GDScript::-1::1712941504::0::1::::<>CollisionShape2D<>::
 Gold.gd::GDScript::-1::1708650924::0::1::::<>Label<>::
 goldcoin1.png::CompressedTexture2D::7619013063250769888::1708650930::1708650930::1::::<><>::
@@ -29,15 +29,15 @@ icon.svg::CompressedTexture2D::4760330271823477242::1708650930::1708765927::1:::
 image1_0.jpg::CompressedTexture2D::1201281380637028060::1708650930::1708650930::1::::<><>::
 Japanese Wall Set.png::CompressedTexture2D::6020949649874403847::1708650924::1708650924::1::::<><>::
 main.gd::GDScript::-1::1708650930::0::1::::<>Node2D<>::
-main.tscn::PackedScene::7370343858096946281::1712947901::0::1::::<><>::res://main.gd<>uid://divbxgdf0lolv::::res://background.tscn
+main.tscn::PackedScene::7370343858096946281::1712950056::0::1::::<><>::res://main.gd<>uid://divbxgdf0lolv::::res://background.tscn
 middle.png::CompressedTexture2D::4219960416582241604::1708650930::1708650930::1::::<><>::
 mtfuji.png::CompressedTexture2D::5968821080873568880::1708650930::1708650930::1::::<><>::
 new_script.gd::GDScript::-1::1708650930::0::1::::<>Node<>::
 NPC.gd::GDScript::-1::1708650924::0::1::::<>CharacterBody2D<>::
 pause_menu.gd::GDScript::-1::1712947901::0::1::::<>Control<>::
-pause_menu.tscn::PackedScene::7382843680736749031::1712947901::0::1::::<><>::res://pause_menu.gd
+pause_menu.tscn::PackedScene::7382843680736749031::1712950056::0::1::::<><>::res://pause_menu.gd
 popup.gd::GDScript::-1::1712947123::0::1::::<>Control<>::
-popup.tscn::PackedScene::7727974735589557366::1712947902::0::1::::<><>::res://popup.gd
+popup.tscn::PackedScene::7727974735589557366::1712950058::0::1::::<><>::res://popup.gd
 README.md::TextFile::-1::1708650924::0::1::::<><>::
 samurai1idle1.png::CompressedTexture2D::6627504843410953309::1708650930::1708650930::1::::<><>::
 samurai1idle2.png::CompressedTexture2D::2625429995726650849::1708650930::1708650930::1::::<><>::
@@ -50,7 +50,7 @@ samurai1walk1.png::CompressedTexture2D::7982955344209111974::1708650930::1708650
 samurai1walk2-removebg-preview.png::CompressedTexture2D::2423464186145464555::1708650930::1708650930::1::::<><>::
 samurai1walk2.png::CompressedTexture2D::7627296845023717126::1708650930::1708650930::1::::<><>::
 SceneChanger.gd::GDScript::-1::1708650924::0::1::::<>CanvasLayer<>::
-scene_changer.tscn::PackedScene::4500055911353335234::1712947902::0::1::::<><>::res://SceneChanger.gd
+scene_changer.tscn::PackedScene::4500055911353335234::1712950057::0::1::::<><>::res://SceneChanger.gd
 Speech.gd::GDScript::-1::1708650924::0::1::::<>Control<>::
 speech_checker.tscn::PackedScene::8870067097428608526::1708650930::0::1::::<><>::res://Speech.gd<>uid://c1rm688nlxly6::::res://Cards/Untitled_Artwork-7.png<>uid://rd56tyysudaq::::res://image1_0.jpg<>uid://bf116pmpp7wbc::::res://Obsticals/sensei.png<>uid://0ftxld6v5s1e::::res://Obsticals/student1.png<>res://mic_Dect.cs
 sunset-sky-mountain-orange-yellow-blue-generative-ai.jpg::CompressedTexture2D::4542446389934882850::1708650930::1708650930::1::::<><>::
@@ -60,10 +60,10 @@ Timer.gd::GDScript::-1::1708650924::0::1::::<>RefCounted<>::
 toriigate.png::CompressedTexture2D::8967647051967842471::1708650930::1708650930::1::::<><>::
 UI.gd::GDScript::-1::1708650924::0::1::::<>CanvasLayer<>::
 Untitled_Artwork.webp::CompressedTexture2D::818088981336888487::1708650924::1708650924::1::::<><>::
-World.tscn::PackedScene::2310376348343739167::1712947902::0::1::::<><>::uid://devas73wpt21i::::res://Tree assets pack/tree (6).png<>uid://boj2r87k3kntl::::res://tileset.png<>uid://bleeqt61swau8::::res://door.tscn<>res://background.gd<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://ce4q33busob21::::res://back.png<>uid://2jb8mnqk7isk::::res://—Pngtree—red sun mount fuji snow_4515945.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://dbyij3eorsxl6::::res://Obsticals/sensei.tscn<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd<>uid://bra8c2mq3v8gs::::res://Obsticals nonhuman/toro_1.tscn<>res://UI.gd<>uid://by36sjn1dk65i::::res://Obsticals/npc.tscn<>uid://ddgkmeow8dg4n::::res://pause_menu.tscn<>res://Cards_count.gd<>uid://bsa7prt8i80ay::::res://card_popup.tscn
-world_2.tscn::PackedScene::4086096130328368559::1712947902::0::1::::<><>::uid://ikk6oqvsk3jy::::res://background2.tscn<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://bmhj7g0fqhyyl::::res://tile.png<>uid://cgpo0spu7vam5::::res://Tree assets pack/tree (5).png<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://qcgbtb0dcgtx::::res://Tree assets pack/tree (8).png<>uid://be2f5mildi8k4::::res://Tree assets pack/tree (1).png<>uid://b0gh0okeib4bh::::res://Tree assets pack/tree (9).png<>uid://cfm7duswiv8ap::::res://Building/buildingdoorway.png<>res://Gold.gd<>uid://betuo7xmbgsqp::::res://Building/building2 (1).png<>res://HP.tres.gd<>uid://ce5quqvgvwruw::::res://Building/temple1.png<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Control.gd<>uid://cf3lc7yulqfsb::::res://Obsticals/enemy.tscn<>uid://bivocf35ejyym::::res://Collectables/Jelly_filled_donuts.tscn
+World.tscn::PackedScene::2310376348343739167::1712950057::0::1::::<><>::uid://devas73wpt21i::::res://Tree assets pack/tree (6).png<>uid://boj2r87k3kntl::::res://tileset.png<>uid://bleeqt61swau8::::res://door.tscn<>res://background.gd<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://d0083pj4sk8n0::::res://toriigate.png<>uid://dbyij3eorsxl6::::res://Obsticals/sensei.tscn<>uid://cyqpvsq7r6h77::::res://backgrounds/background-morning.png<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd<>uid://bra8c2mq3v8gs::::res://Obsticals nonhuman/toro_1.tscn<>res://UI.gd<>uid://by36sjn1dk65i::::res://Obsticals/npc.tscn<>uid://ddgkmeow8dg4n::::res://pause_menu.tscn<>res://Cards_count.gd<>uid://bsa7prt8i80ay::::res://card_popup.tscn
+world_2.tscn::PackedScene::4086096130328368559::1712950252::0::1::::<><>::uid://ikk6oqvsk3jy::::res://background2.tscn<>uid://d4foct8eeb7ob::::res://Player/Player.tscn<>uid://bmhj7g0fqhyyl::::res://tile.png<>uid://cgpo0spu7vam5::::res://Tree assets pack/tree (5).png<>uid://cr1ufqgmrwgbn::::res://Japanese Wall Set.png<>uid://qcgbtb0dcgtx::::res://Tree assets pack/tree (8).png<>uid://be2f5mildi8k4::::res://Tree assets pack/tree (1).png<>uid://b0gh0okeib4bh::::res://Tree assets pack/tree (9).png<>uid://cfm7duswiv8ap::::res://Building/buildingdoorway.png<>res://Gold.gd<>uid://betuo7xmbgsqp::::res://Building/building2 (1).png<>res://HP.tres.gd<>uid://ce5quqvgvwruw::::res://Building/temple1.png<>uid://jngfjsgfjsh3::::res://Collectables/coin.tscn<>res://Control.gd<>uid://cf3lc7yulqfsb::::res://Obsticals/enemy.tscn<>uid://bivocf35ejyym::::res://Collectables/Jelly_filled_donuts.tscn
 World_3.gd::GDScript::-1::1710926776::0::1::::<>Node2D<>::
-World_3.tscn::PackedScene::2307474421804216429::1712947903::0::1::::<><>::uid://c0ip8ircmut5d::::res://dojo_background___night_by_missypena_d3ga2hl-fullview.jpg<>res://Battle.gd<>uid://efgcgha2o3sx::::res://Player/player_2.tscn<>uid://d3yfftjkimk25::::res://Obsticals/Shogun.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd<>res://Actions.gd
+World_3.tscn::PackedScene::2307474421804216429::1712950058::0::1::::<><>::uid://c0ip8ircmut5d::::res://dojo_background___night_by_missypena_d3ga2hl-fullview.jpg<>res://Battle.gd<>uid://efgcgha2o3sx::::res://Player/player_2.tscn<>uid://d3yfftjkimk25::::res://Obsticals/Shogun.tscn<>res://Gold.gd<>res://HP.tres.gd<>res://Control.gd
 —Pngtree—red sun mount fuji snow_4515945.png::CompressedTexture2D::1913798477309297262::1708650930::1708650930::1::::<><>::
 ::res://addons/::1708650924
 ::res://addons/Mircophone_Detection_SpeechProg/::1708650924
@@ -74,9 +74,9 @@ World_3.tscn::PackedScene::2307474421804216429::1712947903::0::1::::<><>::uid://
 Mircophone_Detection_SpeechProg.csproj.FileListAbsolute.txt::TextFile::-1::1708650924::0::1::::<><>::
 ::res://addons/Mircophone_Detection_SpeechProg/obj/Release/::1708650924
 ::res://addons/Mircophone_Detection_SpeechProg/Properties/::1708650924
-::res://addons/speechtotext/::1712947903
+::res://addons/speechtotext/::1712950058
 Example.gd::GDScript::-1::1708650924::0::1::::<>Node2D<>::
-Example.tscn::PackedScene::4777433487550268319::1712947903::0::1::::<><>::res://addons/speechtotext/Example.gd<>res://addons/speechtotext/SpeechToText.gd
+Example.tscn::PackedScene::4777433487550268319::1712950058::0::1::::<><>::res://addons/speechtotext/Example.gd<>res://addons/speechtotext/SpeechToText.gd
 icon.png::CompressedTexture2D::2726982931655100839::1708650924::1708650924::1::::<><>::
 plugin.cfg::TextFile::-1::1708650930::0::1::::<><>::
 Plugin.gd::GDScript::-1::1708650924::0::1::::<>EditorPlugin<>::
@@ -202,7 +202,7 @@ Debug.txt::TextFile::-1::1708650928::0::1::::<><>::
 ::res://addons/speechtotext/model/::1708650928
 ::res://addons/speechtotext/model/en-us/::1708650930
 ::res://addons/speechtotext/model/en-us/en-us/::1708650930
-::res://backgrounds/::1712948530
+::res://backgrounds/::1712948545
 background-daytime.png::CompressedTexture2D::7341477877110354476::1712948530::1712948545::1::::<><>::
 background-morning.png::CompressedTexture2D::6491352886942487684::1712948530::1712948545::1::::<><>::
 background-night.png::CompressedTexture2D::17062109549738850::1712948530::1712948545::1::::<><>::
@@ -250,18 +250,18 @@ Untitled_Artwork (4).webp::CompressedTexture2D::2101999367535621262::1708650924:
 ::res://Global/::1712341769
 Game.gd::GDScript::-1::1712341768::0::1::::<>Node<>::
 Utils.gd::GDScript::-1::1712341768::0::1::::<>Node<>::
-::res://Obsticals/::1712947903
+::res://Obsticals/::1713758621
 Arcade - Shogun Warriors Fujiyama Buster - Shogun.png::CompressedTexture2D::3716361780444649404::1709152422::1709152423::1::::<><>::
 Area2D.gd::GDScript::-1::1708650924::0::1::::<>Area2D<>::
 CollisionShape2D.gd::GDScript::-1::1708650924::0::1::::<>CollisionShape2D<>::
 enemy.gd::GDScript::-1::1708650924::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::5182261339944832681::1712947902::0::1::::<><>::res://Obsticals/enemy.gd<>uid://dji10jqixo7ls::::res://Obsticals/png/Idle__000.png<>uid://cxxran82fyqov::::res://Obsticals/png/Attack__000.png<>uid://dgpxxxyfw4shg::::res://Obsticals/png/Attack__001.png<>uid://btyqelia0twen::::res://Obsticals/png/Attack__002.png<>uid://b36frsnatcsln::::res://Obsticals/png/Attack__003.png<>uid://dca47lrngh7yt::::res://Obsticals/png/Attack__004.png<>uid://mjyowj1jockt::::res://Obsticals/png/Attack__005.png<>uid://cla5pxtik8msj::::res://Obsticals/png/Attack__006.png<>uid://di7icg7emjhig::::res://Obsticals/png/Attack__007.png<>uid://dgltd7r8sm734::::res://Obsticals/png/Attack__008.png<>uid://bj3ocshwkrtnr::::res://Obsticals/png/Attack__009.png<>uid://bvelaow30w67v::::res://Obsticals/png/Dead__000.png<>uid://cy7mxw2oj6510::::res://Obsticals/png/Dead__001.png<>uid://bjh8xjd8vgd3h::::res://Obsticals/png/Dead__002.png<>uid://cl3ij4e2x1sl3::::res://Obsticals/png/Dead__003.png<>uid://cmw3la4mn3l4b::::res://Obsticals/png/Dead__004.png<>uid://crd5qdosbnr4t::::res://Obsticals/png/Dead__005.png<>uid://bs5obktvfdfvr::::res://Obsticals/png/Dead__006.png<>uid://b0thqvg2v3v5w::::res://Obsticals/png/Dead__007.png<>uid://bcpsut6xv8vbh::::res://Obsticals/png/Dead__008.png<>uid://bibkeuhg4166b::::res://Obsticals/png/Dead__009.png<>uid://dy4mj3oup3may::::res://Obsticals/png/Idle__001.png<>uid://dlwk8qpru6vf6::::res://Obsticals/png/Idle__002.png<>uid://c7a415gmav4a1::::res://Obsticals/png/Idle__003.png<>uid://gorhd04bj63p::::res://Obsticals/png/Idle__004.png<>uid://took6l2lqtup::::res://Obsticals/png/Idle__005.png<>uid://bs5cvqhsss28u::::res://Obsticals/png/Idle__006.png<>uid://3uhrgwgppesg::::res://Obsticals/png/Idle__007.png<>uid://sqycctdlotvo::::res://Obsticals/png/Idle__008.png<>uid://8nds2ae7sw78::::res://Obsticals/png/Idle__009.png<>uid://b061c1cgjxix4::::res://Obsticals/png/Run__000.png<>uid://b61c6iasvx7e4::::res://Obsticals/png/Run__001.png<>uid://dyfjt1jinfctq::::res://Obsticals/png/Run__002.png<>uid://k4j34b87ks4u::::res://Obsticals/png/Run__003.png<>uid://bnrn5tevgnbi::::res://Obsticals/png/Run__004.png<>uid://iwoa8w12hopc::::res://Obsticals/png/Run__005.png<>uid://ceno0sdopl8vk::::res://Obsticals/png/Run__006.png<>uid://c41w203l3pnp::::res://Obsticals/png/Run__007.png<>uid://cu1av1x2y8bsq::::res://Obsticals/png/Run__008.png<>uid://cu20y0m4uuuf8::::res://Obsticals/png/Run__009.png
+enemy.tscn::PackedScene::5182261339944832681::1712950057::0::1::::<><>::res://Obsticals/enemy.gd<>uid://dji10jqixo7ls::::res://Obsticals/png/Idle__000.png<>uid://cxxran82fyqov::::res://Obsticals/png/Attack__000.png<>uid://dgpxxxyfw4shg::::res://Obsticals/png/Attack__001.png<>uid://btyqelia0twen::::res://Obsticals/png/Attack__002.png<>uid://b36frsnatcsln::::res://Obsticals/png/Attack__003.png<>uid://dca47lrngh7yt::::res://Obsticals/png/Attack__004.png<>uid://mjyowj1jockt::::res://Obsticals/png/Attack__005.png<>uid://cla5pxtik8msj::::res://Obsticals/png/Attack__006.png<>uid://di7icg7emjhig::::res://Obsticals/png/Attack__007.png<>uid://dgltd7r8sm734::::res://Obsticals/png/Attack__008.png<>uid://bj3ocshwkrtnr::::res://Obsticals/png/Attack__009.png<>uid://bvelaow30w67v::::res://Obsticals/png/Dead__000.png<>uid://cy7mxw2oj6510::::res://Obsticals/png/Dead__001.png<>uid://bjh8xjd8vgd3h::::res://Obsticals/png/Dead__002.png<>uid://cl3ij4e2x1sl3::::res://Obsticals/png/Dead__003.png<>uid://cmw3la4mn3l4b::::res://Obsticals/png/Dead__004.png<>uid://crd5qdosbnr4t::::res://Obsticals/png/Dead__005.png<>uid://bs5obktvfdfvr::::res://Obsticals/png/Dead__006.png<>uid://b0thqvg2v3v5w::::res://Obsticals/png/Dead__007.png<>uid://bcpsut6xv8vbh::::res://Obsticals/png/Dead__008.png<>uid://bibkeuhg4166b::::res://Obsticals/png/Dead__009.png<>uid://dy4mj3oup3may::::res://Obsticals/png/Idle__001.png<>uid://dlwk8qpru6vf6::::res://Obsticals/png/Idle__002.png<>uid://c7a415gmav4a1::::res://Obsticals/png/Idle__003.png<>uid://gorhd04bj63p::::res://Obsticals/png/Idle__004.png<>uid://took6l2lqtup::::res://Obsticals/png/Idle__005.png<>uid://bs5cvqhsss28u::::res://Obsticals/png/Idle__006.png<>uid://3uhrgwgppesg::::res://Obsticals/png/Idle__007.png<>uid://sqycctdlotvo::::res://Obsticals/png/Idle__008.png<>uid://8nds2ae7sw78::::res://Obsticals/png/Idle__009.png<>uid://b061c1cgjxix4::::res://Obsticals/png/Run__000.png<>uid://b61c6iasvx7e4::::res://Obsticals/png/Run__001.png<>uid://dyfjt1jinfctq::::res://Obsticals/png/Run__002.png<>uid://k4j34b87ks4u::::res://Obsticals/png/Run__003.png<>uid://bnrn5tevgnbi::::res://Obsticals/png/Run__004.png<>uid://iwoa8w12hopc::::res://Obsticals/png/Run__005.png<>uid://ceno0sdopl8vk::::res://Obsticals/png/Run__006.png<>uid://c41w203l3pnp::::res://Obsticals/png/Run__007.png<>uid://cu1av1x2y8bsq::::res://Obsticals/png/Run__008.png<>uid://cu20y0m4uuuf8::::res://Obsticals/png/Run__009.png
 npc.tscn::PackedScene::4130670373163969152::1708650924::0::1::::<><>::res://NPC.gd<>uid://0ftxld6v5s1e::::res://Obsticals/student1.png
 sensei.gd::GDScript::-1::1708650924::0::1::::<>CharacterBody2D<>::
 sensei.png::CompressedTexture2D::2792673532002561740::1708650924::1708650924::1::::<><>::
 sensei.tscn::PackedScene::7279499246394615761::1708650924::0::1::::<><>::res://Obsticals/sensei.gd<>res://Obsticals/CollisionShape2D.gd<>uid://bf116pmpp7wbc::::res://Obsticals/sensei.png
 Shogun.gd::GDScript::-1::1712947740::0::1::::<>CharacterBody2D<>::
-Shogun.tscn::PackedScene::9174408265287422908::1712947903::0::1::::<><>::res://Obsticals/Shogun.gd<>uid://bs7h62reccl2k::::res://Obsticals/Arcade - Shogun Warriors Fujiyama Buster - Shogun.png
+Shogun.tscn::PackedScene::9174408265287422908::1712950058::0::1::::<><>::res://Obsticals/Shogun.gd<>uid://bs7h62reccl2k::::res://Obsticals/Arcade - Shogun Warriors Fujiyama Buster - Shogun.png
 student1.png::CompressedTexture2D::1766238259672510752::1708650924::1708650924::1::::<><>::
 ::res://Obsticals/png/::1708650924
 Attack__000.png::CompressedTexture2D::6435698383297849697::1708650924::1708650924::1::::<><>::
@@ -390,17 +390,21 @@ macaroni.png::CompressedTexture2D::5225693502708382769::1708650924::1708650924::
 nurse.png::CompressedTexture2D::2408826175487923814::1708650924::1708650924::1::::<><>::
 party.png::CompressedTexture2D::5669147303669581793::1708650924::1708650924::1::::<><>::
 samurai.png::CompressedTexture2D::6728435807946130980::1708650924::1708650924::1::::<><>::
+::res://Obsticals/Spider images/::1713758557
+spider1.png::CompressedTexture2D::2131767251781511458::1713758219::1713760239::1::::<><>::
+spider2.png::CompressedTexture2D::88454301631413314::1713758226::1713760239::1::::<><>::
+spider3 (1).png::CompressedTexture2D::3929656756697964652::1713758232::1713760239::1::::<><>::
 ::res://Obsticals nonhuman/::1708650924
 komainu.png::CompressedTexture2D::6361759433177586832::1708650924::1708650924::1::::<><>::
 toro1.png::CompressedTexture2D::3218041381808220403::1708650924::1708650924::1::::<><>::
 toro2.png::CompressedTexture2D::7633185932416485143::1708650924::1708650924::1::::<><>::
 toro_1.gd::GDScript::-1::1708650924::0::1::::<>CharacterBody2D<>::
 toro_1.tscn::PackedScene::3581639695322109514::1708650924::0::1::::<><>::res://Obsticals nonhuman/toro_1.gd<>uid://bl33w3etrsawh::::res://Obsticals nonhuman/toro1.png
-::res://Player/::1712947903
+::res://Player/::1712950058
 Player.gd::GDScript::-1::1708650924::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::9205915063948443749::1712947902::0::1::::<><>::res://Player/Player.gd<>uid://6yy0ba5g65ew::::res://samurai1jump1.png<>uid://c1oobif3ctcc0::::res://samurai1idle1.png<>uid://bdn1pin4g7k1f::::res://samurai1idle2.png<>uid://3w6y3hv0ba4o::::res://samurai1idle3.png<>uid://dklvjmp048jc7::::res://samurai1idle4.png<>uid://edk5nn7af2yb::::res://samurai1jump2.png<>uid://8185efo5s7xe::::res://samurai1walk1-removebg-preview.png<>uid://bar7do3t30gdf::::res://samurai1walk2-removebg-preview.png
+Player.tscn::PackedScene::9205915063948443749::1712950057::0::1::::<><>::res://Player/Player.gd<>uid://6yy0ba5g65ew::::res://samurai1jump1.png<>uid://c1oobif3ctcc0::::res://samurai1idle1.png<>uid://bdn1pin4g7k1f::::res://samurai1idle2.png<>uid://3w6y3hv0ba4o::::res://samurai1idle3.png<>uid://dklvjmp048jc7::::res://samurai1idle4.png<>uid://edk5nn7af2yb::::res://samurai1jump2.png<>uid://8185efo5s7xe::::res://samurai1walk1-removebg-preview.png<>uid://bar7do3t30gdf::::res://samurai1walk2-removebg-preview.png
 player_2.gd::GDScript::-1::1711133494::0::1::::<>CharacterBody2D<>::
-player_2.tscn::PackedScene::291445462857233099::1712947903::0::1::::<><>::uid://6yy0ba5g65ew::::res://samurai1jump1.png<>res://Player/player_2.gd<>uid://edk5nn7af2yb::::res://samurai1jump2.png<>uid://c1oobif3ctcc0::::res://samurai1idle1.png<>uid://bdn1pin4g7k1f::::res://samurai1idle2.png<>uid://3w6y3hv0ba4o::::res://samurai1idle3.png<>uid://dklvjmp048jc7::::res://samurai1idle4.png
+player_2.tscn::PackedScene::291445462857233099::1712950058::0::1::::<><>::uid://6yy0ba5g65ew::::res://samurai1jump1.png<>res://Player/player_2.gd<>uid://edk5nn7af2yb::::res://samurai1jump2.png<>uid://c1oobif3ctcc0::::res://samurai1idle1.png<>uid://bdn1pin4g7k1f::::res://samurai1idle2.png<>uid://3w6y3hv0ba4o::::res://samurai1idle3.png<>uid://dklvjmp048jc7::::res://samurai1idle4.png
 ::res://r- beginning resized/::1708650930
 hear copy.png::CompressedTexture2D::8113711317956945975::1708650930::1708650930::1::::<><>::
 ram.png::CompressedTexture2D::5728869419171625399::1708650930::1708650930::1::::<><>::

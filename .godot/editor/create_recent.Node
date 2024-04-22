@@ -1,3 +1,7 @@
+AnimatedSprite2D
+AnimationPlayer
+CollisionShape2D
+CharacterBody2D
 Label
 Panel
 Control
@@ -5,10 +9,6 @@ Camera2D
 Button
 VBoxContainer
 BoxContainer
-AnimatedSprite2D
-AnimationPlayer
-CollisionShape2D
-CharacterBody2D
 ProgressBar
 ParallaxBackground
 ParallaxLayer

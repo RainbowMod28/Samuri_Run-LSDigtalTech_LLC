@@ -880,8 +880,14 @@ motion_scale = Vector2(0.2, 0)
 
 [node name="Background-morning" type="Sprite2D" parent="Background/ParallaxLayer"]
 position = Vector2(543, 314)
-scale = Vector2(0.412842, 0.607503)
+scale = Vector2(0.532842, 0.847504)
 texture = ExtResource("6_nxfsc")
+
+[node name="Background-morning2" type="Sprite2D" parent="Background/ParallaxLayer"]
+position = Vector2(2698, 314)
+scale = Vector2(0.532842, 0.847504)
+texture = ExtResource("6_nxfsc")
+flip_h = true
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="Background"]
 motion_scale = Vector2(0, 0)
@@ -925,7 +931,7 @@ speech to defeat the shogun!"
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(14, 393)
+position = Vector2(76, 408)
 shape = SubResource("RectangleShape2D_yaycx")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
