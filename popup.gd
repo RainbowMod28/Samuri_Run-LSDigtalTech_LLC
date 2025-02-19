@@ -32,7 +32,7 @@ var cardImages = [
 	load("res://r- beginning resized/ram.png"),
 	load("res://r- beginning resized/ramen.png"),
 	load("res://r- beginning resized/read.png"),
-	load("res://r- beginning resized/rectangle.png"),
+	load("res://Image20250103123006.png"),
 	load("res://r- beginning resized/red.png"),
 	load("res://r- beginning resized/riding.png"),
 	load("res://r- beginning resized/rug.png"),

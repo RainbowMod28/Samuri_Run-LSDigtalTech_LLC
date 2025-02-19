@@ -1,0 +1,6 @@
+[gd_resource type="AudioBusLayout" load_steps=2 format=3 uid="uid://bwos4bdy24d7w"]
+
+[ext_resource type="Script" path="res://addons/godot-whisper/addons/godot_whisper/label_transcribe.gd" id="1_6svw1"]
+
+[resource]
+script = ExtResource("1_6svw1")

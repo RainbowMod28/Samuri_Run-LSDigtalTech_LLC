@@ -424,7 +424,7 @@ sources/0 = SubResource("TileSetAtlasSource_jr6dv")
 sources/1 = SubResource("TileSetAtlasSource_ajagd")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4aoo5"]
-size = Vector2(158, 648)
+size = Vector2(164, 648)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5juvt"]
 size = Vector2(2555.5, 321)
@@ -550,6 +550,7 @@ position = Vector2(239, 559)
 
 [node name="Coin3" parent="Collectables" instance=ExtResource("10_qbt5c")]
 position = Vector2(479, 560)
+scale = Vector2(0.699322, 1.25632)
 
 [node name="Coin7" parent="Collectables" instance=ExtResource("10_qbt5c")]
 position = Vector2(928, 540)
@@ -625,7 +626,7 @@ position = Vector2(-75, 325)
 shape = SubResource("RectangleShape2D_4aoo5")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="TileMap/StaticBody2D"]
-position = Vector2(2389, 323)
+position = Vector2(2386, 323)
 shape = SubResource("RectangleShape2D_4aoo5")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="TileMap/StaticBody2D"]
@@ -637,7 +638,7 @@ position = Vector2(354, 357.813)
 shape = SubResource("RectangleShape2D_a8ulm")
 
 [node name="Player" parent="." instance=ExtResource("2_mjrd1")]
-position = Vector2(40, 550)
+position = Vector2(83, 497)
 
 [node name="Enemy" parent="." instance=ExtResource("13_3fgx6")]
 position = Vector2(867, 160)

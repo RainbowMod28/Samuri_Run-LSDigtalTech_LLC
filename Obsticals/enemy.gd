@@ -57,6 +57,7 @@ func _on_player_collision_body_entered(body): #Attacking System
 		if get_node("AnimatedSprite2D").animation !="Attack":
 			anim.play("Attack")
 			Game.playerHP -= 10
+			
 		
 		
 	

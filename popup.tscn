@@ -16,7 +16,6 @@ transparent_bg = true
 title = "Hear"
 initial_position = 1
 size = Vector2i(500, 650)
-borderless = true
 transparent = true
 theme = SubResource("Theme_wf7vy")
 theme_override_colors/title_color = Color(0, 0, 0, 1)
@@ -36,6 +35,7 @@ offset_bottom = 140.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 62
 text = "placeholder"
+horizontal_alignment = 1
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true

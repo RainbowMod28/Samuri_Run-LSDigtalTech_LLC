@@ -22,5 +22,12 @@ text = "Quit"
 
 [node name="Background" parent="." instance=ExtResource("2_qnroa")]
 
+[node name="Button" type="Button" parent="."]
+offset_left = 668.0
+offset_top = 143.0
+offset_right = 912.0
+offset_bottom = 218.0
+text = "R words"
+
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

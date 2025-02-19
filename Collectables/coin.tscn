@@ -1,8 +1,9 @@
-[gd_scene load_steps=12 format=3 uid="uid://jngfjsgfjsh3"]
+[gd_scene load_steps=13 format=3 uid="uid://jngfjsgfjsh3"]
 
 [ext_resource type="Script" path="res://Coin.gd" id="1_0km4y"]
 [ext_resource type="Texture2D" uid="uid://dc7gb00abo1jy" path="res://goldcoins.png" id="2_4ko6m"]
 [ext_resource type="Texture2D" uid="uid://dgsybc8y0ue77" path="res://goldcoin1.png" id="3_dcxq5"]
+[ext_resource type="AudioStream" uid="uid://oqtjmykxpt4h" path="res://SoundEffects/545238__mr_fritz__item-sparkle.wav" id="4_qu3xa"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_5uoxv"]
 radius = 28.0179
@@ -77,6 +78,9 @@ scale = Vector2(0.341195, 0.346875)
 texture = ExtResource("3_dcxq5")
 
 [node name="Node2D" type="Node2D" parent="."]
+
+[node name="CoinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_qu3xa")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_body_exited"]

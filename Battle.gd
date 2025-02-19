@@ -1,6 +1,7 @@
 extends Control
 
 signal textbox_closed
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$Textbox.hide()
@@ -10,12 +11,9 @@ func _ready():
 	WITH YOUR POWER OF SPEECH??")
 	await textbox_closed
 	$Actions.show()
+func update():
+	pass
 
-func set_health(progress_bar, shogunHP, max_health):
-	#text = "HP: " + str(Game.shogunHP) 
-	progress_bar.value = Game.shogunHP
-	progress_bar.max_value = max_health
-	progress_bar.get_node("Label").text = "HP" + str(Game.shogunHP)
 
 func _input(event):
 	if (Input.is_action_just_pressed("ui_accept") or Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT)) and $Textbox.visible:
@@ -46,18 +44,28 @@ func _on_dodge_pressed():
 
 
 func _on_block_pressed():
-	display_text("")
+	display_text("AAAAUUUUGGGGHHH")
+	Game.playerHP -=1
 	await textbox_closed
 	pass # Replace with function body.
 
 
 func _on_attack_1_pressed():
+	display_text("Ngh- That was nothing....")
+	Game.shogunHP -= 50
+	await textbox_closed
 	pass # Replace with function body.
 
 
 func _on_attack_2_pressed():
+	display_text("Ow, that hurts...")
+	Game.shogunHP -= 100
+	await textbox_closed
 	pass # Replace with function body.
 
 
 func _on_super_pressed():
+	display_text("Your power of speech is too much!")
+	Game.shogunHP -= 1000
+	await textbox_closed
 	pass # Replace with function body.

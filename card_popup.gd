@@ -6,6 +6,7 @@ extends Area2D
 @export var text_to_show : String = "text"
 
 @onready var popup_scene = load("res://popup.tscn")
+@onready var CardCollected = $CardCollected
 
 func _on_body_entered(body): #When this function is when the player collects the card
 	if body.name == "Player":
@@ -13,7 +14,7 @@ func _on_body_entered(body): #When this function is when the player collects the
 		new_popup.showtime = display_time #This is suppose to time how long the popup stays up
 		new_popup.text_to_show = text_to_show
 		add_child(new_popup)
-		
+		CardCollected.play()
 		
 
 func _ready(): #Making sure the card is animated

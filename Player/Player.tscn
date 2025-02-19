@@ -1,21 +1,46 @@
-[gd_scene load_steps=18 format=3 uid="uid://d4foct8eeb7ob"]
+[gd_scene load_steps=25 format=3 uid="uid://d4foct8eeb7ob"]
 
 [ext_resource type="Script" path="res://Player/Player.gd" id="1_4wj3e"]
 [ext_resource type="Texture2D" uid="uid://6yy0ba5g65ew" path="res://samurai1jump1.png" id="2_5bp7e"]
 [ext_resource type="Texture2D" uid="uid://c1oobif3ctcc0" path="res://samurai1idle1.png" id="2_l3pr8"]
+[ext_resource type="Texture2D" uid="uid://d11dsngq117t8" path="res://unnamed (1).png" id="2_tugwe"]
 [ext_resource type="Texture2D" uid="uid://bdn1pin4g7k1f" path="res://samurai1idle2.png" id="3_oc0sh"]
+[ext_resource type="Texture2D" uid="uid://g523scsuiwop" path="res://RedflashSamuri.png" id="3_pb0c4"]
+[ext_resource type="Texture2D" uid="uid://dptu1o1dq0cjo" path="res://WhiteFlash.png" id="4_j586q"]
 [ext_resource type="Texture2D" uid="uid://3w6y3hv0ba4o" path="res://samurai1idle3.png" id="4_wgaaq"]
 [ext_resource type="Texture2D" uid="uid://dklvjmp048jc7" path="res://samurai1idle4.png" id="5_8dbkt"]
+[ext_resource type="Texture2D" uid="uid://duupmvxiphwq8" path="res://unnamed.png" id="5_vajen"]
 [ext_resource type="Texture2D" uid="uid://edk5nn7af2yb" path="res://samurai1jump2.png" id="7_55uwj"]
 [ext_resource type="Texture2D" uid="uid://8185efo5s7xe" path="res://samurai1walk1-removebg-preview.png" id="8_yb3bh"]
 [ext_resource type="Texture2D" uid="uid://bar7do3t30gdf" path="res://samurai1walk2-removebg-preview.png" id="9_ig74p"]
+[ext_resource type="AudioStream" uid="uid://chqtrrj65si0t" path="res://SoundEffects/667297__pekena_larva__voc_male_jump_05.wav" id="14_4gpl2"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i60x2"]
 radius = 24.25
 height = 72.0001
 
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ln2xs"]
+resource_local_to_scene = true
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_nvovx"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_tugwe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pb0c4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_j586q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_vajen")
+}],
+"loop": true,
+"name": &"HitFlash",
+"speed": 6.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_l3pr8")
@@ -64,6 +89,9 @@ animations = [{
 "speed": 7.0
 }]
 
+[sub_resource type="Animation" id="Animation_60fhv"]
+resource_name = "HitFlash"
+
 [sub_resource type="Animation" id="Animation_uxtld"]
 resource_name = "Idle"
 
@@ -105,6 +133,7 @@ resource_name = "Walk"
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_cryhe"]
 _data = {
+"HitFlash": SubResource("Animation_60fhv"),
 "Idle": SubResource("Animation_uxtld"),
 "Jump": SubResource("Animation_d1num"),
 "RESET": SubResource("Animation_2t6q2"),
@@ -113,6 +142,7 @@ _data = {
 }
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
+scale = Vector2(2.27954, 2.04966)
 script = ExtResource("1_4wj3e")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -120,19 +150,22 @@ position = Vector2(0.749985, -3.05176e-05)
 shape = SubResource("CapsuleShape2D_i60x2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(0.0496331, 0.0524894)
+material = SubResource("ShaderMaterial_ln2xs")
+position = Vector2(0, 4.76837e-07)
+scale = Vector2(0.0724533, 0.0738641)
 sprite_frames = SubResource("SpriteFrames_nvovx")
-animation = &"walk"
-frame_progress = 0.127059
-
-[node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(1, 1)
-zoom = Vector2(1.6, 1.6)
+animation = &"HitFlash"
+frame = 3
+frame_progress = 0.114765
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-root_node = NodePath("../Camera2D")
+root_node = NodePath("")
 libraries = {
 "": SubResource("AnimationLibrary_cryhe")
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
+
+[node name="Jump" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_4gpl2")
+volume_db = 7.091

@@ -16,6 +16,8 @@ func attack():
 func _ready():
 	anim.play("idle")
 
+
+
 #func _physics_process(delta):
 	# Add the gravity.
 	#if not is_on_floor():
