@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d4vtudjdh275"
+path="res://.godot/imported/runner.mp3-4dfa6f3876a30c7aad267ad6bf1b096e.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/runner.mp3"
+dest_files=["res://.godot/imported/runner.mp3-4dfa6f3876a30c7aad267ad6bf1b096e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

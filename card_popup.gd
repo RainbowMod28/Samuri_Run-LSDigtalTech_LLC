@@ -8,6 +8,8 @@ extends Area2D
 @onready var popup_scene = load("res://popup.tscn")
 @onready var CardCollected = $CardCollected
 
+signal card_collected #define signal
+
 func _on_body_entered(body): #When this function is when the player collects the card
 	if body.name == "Player":
 		var new_popup = popup_scene.instantiate() #This calls the popup scene
@@ -16,6 +18,7 @@ func _on_body_entered(body): #When this function is when the player collects the
 		add_child(new_popup)
 		CardCollected.play()
 		
+
 
 func _ready(): #Making sure the card is animated
 	get_node("AnimatedSprite2D").play("default")

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://ddgkmeow8dg4n"]
+[gd_scene load_steps=3 format=3 uid="uid://ddgkmeow8dg4n"]
 
 [ext_resource type="Script" path="res://pause_menu.gd" id="1_sneo1"]
+[ext_resource type="Theme" uid="uid://cfhyoyk2v11ii" path="res://Fonts/ButtonDefault.tres" id="2_bi1p2"]
 
 [node name="Pause Menu" type="Control"]
 layout_mode = 3
@@ -21,10 +22,12 @@ layout_mode = 2
 
 [node name="resume" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_bi1p2")
 text = "Resume"
 
 [node name="Quit" type="Button" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+theme = ExtResource("2_bi1p2")
 text = "Quit"
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/resume" to="." method="_on_resume_pressed"]

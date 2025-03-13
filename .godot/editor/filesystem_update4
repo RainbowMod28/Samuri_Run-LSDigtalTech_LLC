@@ -2,6 +2,7 @@ res://main.tscn
 res://addons/godot-whisper/addons/godot_whisper/label_transcribe.gd
 res://background.gd
 res://popup.gd
+res://Fonts/ButtonDefault.tres
 res://Player/Player.gdshader
 res://pause_menu.tscn
 res://Player/Player.tscn
@@ -22,3 +23,6 @@ res://card_popup.tscn
 res://Collectables/coin.tscn
 res://World_2.0.tscn
 res://Obsticals nonhuman/Movingplatform.tscn
+res://CardsLabel.gd
+res://Control.gd
+res://World_1.gd

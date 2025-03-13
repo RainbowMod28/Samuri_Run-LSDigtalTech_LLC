@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgwyxh4svjxi0"
+path="res://.godot/imported/ruler.mp3-6dc8010c5a0140bba96afa13ef3aba05.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/ruler.mp3"
+dest_files=["res://.godot/imported/ruler.mp3-6dc8010c5a0140bba96afa13ef3aba05.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

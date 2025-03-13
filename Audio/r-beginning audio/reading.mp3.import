@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcgw4axnq7co2"
+path="res://.godot/imported/reading.mp3-4083e2346d9d2a49b2f94d927380c584.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/reading.mp3"
+dest_files=["res://.godot/imported/reading.mp3-4083e2346d9d2a49b2f94d927380c584.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

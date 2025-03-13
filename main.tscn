@@ -1,33 +1,50 @@
-[gd_scene load_steps=3 format=3 uid="uid://ddaiqsojb3nxx"]
+[gd_scene load_steps=7 format=3 uid="uid://ddaiqsojb3nxx"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_0km6o"]
 [ext_resource type="PackedScene" uid="uid://divbxgdf0lolv" path="res://background.tscn" id="2_qnroa"]
+[ext_resource type="Texture2D" uid="uid://cwi28e2t74wnh" path="res://backgrounds/Title.png" id="2_vmvvm"]
+[ext_resource type="Theme" uid="uid://cfhyoyk2v11ii" path="res://Fonts/ButtonDefault.tres" id="3_44l65"]
+[ext_resource type="Texture2D" uid="uid://4584pef7lkqb" path="res://backgrounds/Title_.png" id="3_48gxw"]
+[ext_resource type="FontFile" uid="uid://jv8iad15l56c" path="res://Fonts/gomarice_no_continue.ttf" id="4_56ewv"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_0km6o")
 
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(592, 214)
+texture = ExtResource("2_vmvvm")
+
+[node name="Title2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(592, 215)
+texture = ExtResource("3_48gxw")
+
 [node name="Play" type="Button" parent="."]
-offset_left = 380.0
-offset_top = 199.0
-offset_right = 772.0
-offset_bottom = 362.0
+offset_left = 98.0
+offset_top = 407.0
+offset_right = 304.0
+offset_bottom = 510.0
+theme = ExtResource("3_44l65")
+theme_override_fonts/font = ExtResource("4_56ewv")
 text = "Play"
 
 [node name="Quit" type="Button" parent="."]
-offset_left = 381.0
-offset_top = 397.0
-offset_right = 773.0
-offset_bottom = 560.0
+offset_left = 785.0
+offset_top = 413.0
+offset_right = 989.0
+offset_bottom = 508.0
+theme = ExtResource("3_44l65")
 text = "Quit"
 
 [node name="Background" parent="." instance=ExtResource("2_qnroa")]
 
 [node name="Button" type="Button" parent="."]
-offset_left = 668.0
-offset_top = 143.0
-offset_right = 912.0
-offset_bottom = 218.0
-text = "R words"
+offset_left = 438.0
+offset_top = 425.0
+offset_right = 682.0
+offset_bottom = 500.0
+theme = ExtResource("3_44l65")
+text = "Video"
 
 [connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

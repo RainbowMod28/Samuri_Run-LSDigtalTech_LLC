@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bq45us3tr1q31"
+path="res://.godot/imported/raspberries.mp3-5f93e194603066ac46eabdc8d32b55ab.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/raspberries.mp3"
+dest_files=["res://.godot/imported/raspberries.mp3-5f93e194603066ac46eabdc8d32b55ab.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

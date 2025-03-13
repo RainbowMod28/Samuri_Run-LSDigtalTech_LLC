@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cyp0nkrox7a16"
+path="res://.godot/imported/refridgerator.mp3-4fbb61b6aff6022760cd03b86700854c.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/refridgerator.mp3"
+dest_files=["res://.godot/imported/refridgerator.mp3-4fbb61b6aff6022760cd03b86700854c.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

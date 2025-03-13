@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://5p1fffkw432i"
+path="res://.godot/imported/rose.mp3-75612a3d63a605a31fff572195c30220.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/rose.mp3"
+dest_files=["res://.godot/imported/rose.mp3-75612a3d63a605a31fff572195c30220.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cunpu1ppnn84n"
+path="res://.godot/imported/ripe.mp3-c1438f496507255ddd8ce7946b620bd4.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/ripe.mp3"
+dest_files=["res://.godot/imported/ripe.mp3-c1438f496507255ddd8ce7946b620bd4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

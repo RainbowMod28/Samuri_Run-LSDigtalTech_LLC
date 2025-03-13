@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmddbdo1cua06"
+path="res://.godot/imported/ram.mp3-de95b03eb9294fd00ca6b96621100a1e.mp3str"
+
+[deps]
+
+source_file="res://Audio/r-beginning audio/ram.mp3"
+dest_files=["res://.godot/imported/ram.mp3-de95b03eb9294fd00ca6b96621100a1e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
