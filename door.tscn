@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Door.gd" id="1_p6ilx"]
 [ext_resource type="PackedScene" uid="uid://b5d4i7qols8fu" path="res://scene_changer.tscn" id="2_2y2pp"]
-[ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="2_7s31x"]
+[ext_resource type="Texture2D" path="res://toriigate.png" id="2_7s31x"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jqq4x"]
 size = Vector2(256, 286)

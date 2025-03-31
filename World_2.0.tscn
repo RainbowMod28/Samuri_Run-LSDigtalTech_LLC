@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://bsyxqbogj751d"]
+[gd_scene load_steps=30 format=3 uid="uid://bsyxqbogj751d"]
 
 [ext_resource type="Script" path="res://Gold.gd" id="1_6q7xo"]
 [ext_resource type="Texture2D" uid="uid://dcujckv7ra7r1" path="res://backgrounds/background-daytime.png" id="1_7phpn"]
@@ -15,6 +15,9 @@
 [ext_resource type="PackedScene" uid="uid://4slq5g4ajaf0" path="res://Obsticals nonhuman/Movingplatform.tscn" id="10_vemyy"]
 [ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="11_iguke"]
 [ext_resource type="PackedScene" uid="uid://cf3lc7yulqfsb" path="res://Obsticals/enemy.tscn" id="13_yerth"]
+[ext_resource type="Texture2D" uid="uid://diy6a1vfngshn" path="res://Assets/bush.png" id="16_h1lf5"]
+[ext_resource type="Texture2D" uid="uid://qbujat7hl5sf" path="res://Assets/gingko-tree.png" id="17_ihnh6"]
+[ext_resource type="Texture2D" uid="uid://c8fi8h4xiemf8" path="res://Assets/japanese-magnolia-tree.png" id="18_d02lb"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4jvpx"]
 
@@ -1079,6 +1082,21 @@ curve = SubResource("Curve2D_66ejp")
 
 [node name="Enemy" parent="." instance=ExtResource("13_yerth")]
 position = Vector2(960, 326)
+
+[node name="Bush" type="Sprite2D" parent="."]
+position = Vector2(797, 537)
+scale = Vector2(0.0946132, 0.0867013)
+texture = ExtResource("16_h1lf5")
+
+[node name="Gingko-tree" type="Sprite2D" parent="."]
+position = Vector2(1062, 442)
+scale = Vector2(0.100733, 0.129883)
+texture = ExtResource("17_ihnh6")
+
+[node name="Japanese-magnolia-tree" type="Sprite2D" parent="."]
+position = Vector2(1472, 453)
+scale = Vector2(0.543584, 0.457364)
+texture = ExtResource("18_d02lb")
 
 [connection signal="ready" from="UI/Control/Timer2" to="UI/Control" method="_on_timer_ready"]
 [connection signal="timeout" from="UI/Control/Timer" to="UI/Control" method="_on_timer_timeout"]

@@ -9,7 +9,6 @@ res://Player/Player.tscn
 res://world_2.tscn
 res://Obsticals/enemy.tscn
 res://scene_changer.tscn
-res://door.tscn
 res://popup.tscn
 res://addons/speechtotext/Example.tscn
 res://World_3.tscn
@@ -18,11 +17,8 @@ res://Player/player_2.tscn
 res://background2.tscn
 res://Spider.tscn
 res://speech_scene.tscn
-res://World_1.tscn
 res://card_popup.tscn
 res://Collectables/coin.tscn
 res://World_2.0.tscn
 res://Obsticals nonhuman/Movingplatform.tscn
-res://CardsLabel.gd
-res://Control.gd
-res://World_1.gd
+res://LevelCompletion.tscn

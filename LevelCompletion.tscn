@@ -1,0 +1,133 @@
+[gd_scene load_steps=16 format=3 uid="uid://n21d6up4ac0g"]
+
+[ext_resource type="Texture2D" uid="uid://bq8jr32l58jfb" path="res://Assets/toriigate.png" id="1_dl8mm"]
+[ext_resource type="Texture2D" uid="uid://c8fi8h4xiemf8" path="res://Assets/japanese-magnolia-tree.png" id="2_43v0w"]
+[ext_resource type="Texture2D" uid="uid://b1yrdappi27ly" path="res://Assets/toro2.png" id="3_b234k"]
+[ext_resource type="Texture2D" uid="uid://83mijedotl4q" path="res://Assets/panel.webp" id="4_mx15m"]
+[ext_resource type="Texture2D" uid="uid://bf116pmpp7wbc" path="res://Obsticals/sensei.png" id="5_xj7uy"]
+[ext_resource type="Texture2D" uid="uid://0ftxld6v5s1e" path="res://Obsticals/student1.png" id="6_bryqs"]
+[ext_resource type="Theme" uid="uid://bpxpijwice52a" path="res://Fonts/Font_UI.tres" id="7_lbngp"]
+[ext_resource type="Script" path="res://Gold.gd" id="8_rt3ud"]
+[ext_resource type="Script" path="res://HP.tres.gd" id="9_unw3t"]
+[ext_resource type="Script" path="res://Control.gd" id="10_5tepb"]
+[ext_resource type="Script" path="res://CardsLabel.gd" id="11_jgni0"]
+
+[sub_resource type="Theme" id="Theme_4q7hx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_71y8c"]
+bg_color = Color(0.490196, 0.623529, 0.686275, 1)
+
+[sub_resource type="Theme" id="Theme_4pbqn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n135r"]
+bg_color = Color(0.913725, 0.917647, 0.792157, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+theme = SubResource("Theme_4q7hx")
+theme_override_styles/panel = SubResource("StyleBoxFlat_71y8c")
+
+[node name="Toriigate" type="Sprite2D" parent="."]
+position = Vector2(584, 344)
+scale = Vector2(2.11335, 2.4294)
+texture = ExtResource("1_dl8mm")
+
+[node name="Japanese-magnolia-tree" type="Sprite2D" parent="."]
+position = Vector2(304, 440)
+texture = ExtResource("2_43v0w")
+
+[node name="Japanese-magnolia-tree2" type="Sprite2D" parent="."]
+position = Vector2(848, 440)
+rotation = 3.14159
+scale = Vector2(1, -1)
+texture = ExtResource("2_43v0w")
+
+[node name="Panel3" type="Panel" parent="."]
+offset_left = 264.0
+offset_top = 96.0
+offset_right = 888.0
+offset_bottom = 536.0
+theme = SubResource("Theme_4pbqn")
+theme_override_styles/panel = SubResource("StyleBoxFlat_n135r")
+
+[node name="Toro2" type="Sprite2D" parent="."]
+position = Vector2(168, 496)
+scale = Vector2(1.72222, 1.83333)
+texture = ExtResource("3_b234k")
+
+[node name="Toro3" type="Sprite2D" parent="."]
+position = Vector2(992, 496)
+scale = Vector2(1.72222, 1.83333)
+texture = ExtResource("3_b234k")
+
+[node name="Panel2" type="Sprite2D" parent="."]
+position = Vector2(576, 320)
+scale = Vector2(0.748441, 0.670779)
+texture = ExtResource("4_mx15m")
+
+[node name="Sensei" type="Sprite2D" parent="."]
+position = Vector2(92.25, 455)
+scale = Vector2(1.58333, 1.84259)
+texture = ExtResource("5_xj7uy")
+
+[node name="Student1" type="Sprite2D" parent="."]
+position = Vector2(1080, 456)
+scale = Vector2(1.63728, 1.82407)
+texture = ExtResource("6_bryqs")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Gold" type="Label" parent="UI"]
+offset_left = 376.0
+offset_top = 216.0
+offset_right = 495.0
+offset_bottom = 275.0
+theme = ExtResource("7_lbngp")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "Gold:"
+script = ExtResource("8_rt3ud")
+metadata/_edit_use_anchors_ = true
+
+[node name="HP" type="Label" parent="UI"]
+offset_left = 376.0
+offset_top = 296.0
+offset_right = 495.0
+offset_bottom = 355.0
+theme = ExtResource("7_lbngp")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+text = "HP: "
+script = ExtResource("9_unw3t")
+metadata/_edit_use_anchors_ = true
+
+[node name="Control" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("10_5tepb")
+metadata/_edit_use_anchors_ = true
+
+[node name="Cards" type="Label" parent="UI"]
+offset_left = 376.0
+offset_top = 368.0
+offset_right = 495.0
+offset_bottom = 427.0
+theme = ExtResource("7_lbngp")
+theme_override_font_sizes/font_size = 30
+text = "Cards:"
+script = ExtResource("11_jgni0")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 456.0
+offset_top = 136.0
+offset_right = 701.0
+offset_bottom = 178.0
+theme = ExtResource("7_lbngp")
+theme_override_font_sizes/font_size = 30
+text = "Level Summary"
+uppercase = true

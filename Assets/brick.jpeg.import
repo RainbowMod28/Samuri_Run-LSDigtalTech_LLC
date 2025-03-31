@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpb4y2e67tfuv"
-path="res://.godot/imported/toro1.png-2c02e80b63eff22294671ebc788f991e.ctex"
+uid="uid://pnf8ivw5qm0o"
+path="res://.godot/imported/brick.jpeg-cdb2e85e435bf0fba0f6e03c50aafff3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://toro1.png"
-dest_files=["res://.godot/imported/toro1.png-2c02e80b63eff22294671ebc788f991e.ctex"]
+source_file="res://Assets/brick.jpeg"
+dest_files=["res://.godot/imported/brick.jpeg-cdb2e85e435bf0fba0f6e03c50aafff3.ctex"]
 
 [params]
 

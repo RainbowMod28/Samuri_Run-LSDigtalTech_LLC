@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0083pj4sk8n0"
-path="res://.godot/imported/toriigate.png-b7e70a528a4584a8cc2a17b031cbaf30.ctex"
+uid="uid://b1yrdappi27ly"
+path="res://.godot/imported/toro2.png-203bc19d08deaa65cc67f60e8ea8175c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://toriigate.png"
-dest_files=["res://.godot/imported/toriigate.png-b7e70a528a4584a8cc2a17b031cbaf30.ctex"]
+source_file="res://Assets/toro2.png"
+dest_files=["res://.godot/imported/toro2.png-203bc19d08deaa65cc67f60e8ea8175c.ctex"]
 
 [params]
 
