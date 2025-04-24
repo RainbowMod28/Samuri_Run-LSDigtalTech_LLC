@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://ikk6oqvsk3jy" path="res://background2.tscn" id="1_si5ah"]
 [ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="2_mjrd1"]
-[ext_resource type="Texture2D" uid="uid://bmhj7g0fqhyyl" path="res://tile.png" id="2_ue72d"]
+[ext_resource type="Texture2D" path="res://tile.png" id="2_ue72d"]
 [ext_resource type="Texture2D" uid="uid://cgpo0spu7vam5" path="res://Tree assets pack/tree (5).png" id="2_y1c7d"]
 [ext_resource type="Texture2D" uid="uid://cr1ufqgmrwgbn" path="res://Japanese Wall Set.png" id="3_sakew"]
 [ext_resource type="Texture2D" uid="uid://qcgbtb0dcgtx" path="res://Tree assets pack/tree (8).png" id="3_vq4y5"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://n21d6up4ac0g"]
+[gd_scene load_steps=17 format=3 uid="uid://n21d6up4ac0g"]
 
 [ext_resource type="Texture2D" uid="uid://bq8jr32l58jfb" path="res://Assets/toriigate.png" id="1_dl8mm"]
 [ext_resource type="Texture2D" uid="uid://c8fi8h4xiemf8" path="res://Assets/japanese-magnolia-tree.png" id="2_43v0w"]
@@ -11,6 +11,7 @@
 [ext_resource type="Script" path="res://HP.tres.gd" id="9_unw3t"]
 [ext_resource type="Script" path="res://Control.gd" id="10_5tepb"]
 [ext_resource type="Script" path="res://CardsLabel.gd" id="11_jgni0"]
+[ext_resource type="Theme" uid="uid://cfhyoyk2v11ii" path="res://Fonts/ButtonDefault.tres" id="12_wkgj4"]
 
 [sub_resource type="Theme" id="Theme_4q7hx"]
 
@@ -131,3 +132,11 @@ theme = ExtResource("7_lbngp")
 theme_override_font_sizes/font_size = 30
 text = "Level Summary"
 uppercase = true
+
+[node name="Button" type="Button" parent="."]
+offset_left = 480.0
+offset_top = 424.0
+offset_right = 664.0
+offset_bottom = 512.0
+theme = ExtResource("12_wkgj4")
+text = "Continue"

@@ -1,8 +1,8 @@
-[gd_scene load_steps=21 format=3 uid="uid://castmopuoecbl"]
+[gd_scene load_steps=20 format=3 uid="uid://castmopuoecbl"]
 
 [ext_resource type="Script" path="res://World_1.gd" id="1_51a2g"]
 [ext_resource type="Texture2D" uid="uid://cyqpvsq7r6h77" path="res://backgrounds/background-morning.png" id="1_lc8as"]
-[ext_resource type="Texture2D" uid="uid://boj2r87k3kntl" path="res://tileset.png" id="1_ypspr"]
+[ext_resource type="Texture2D" path="res://tileset.png" id="1_ypspr"]
 [ext_resource type="Script" path="res://Gold.gd" id="2_4q8wr"]
 [ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_druxp"]
 [ext_resource type="Theme" uid="uid://bpxpijwice52a" path="res://Fonts/Font_UI.tres" id="3_e7vdb"]
@@ -10,7 +10,6 @@
 [ext_resource type="Script" path="res://Control.gd" id="4_0w5v3"]
 [ext_resource type="Script" path="res://CardsLabel.gd" id="6_l3mh0"]
 [ext_resource type="PackedScene" uid="uid://d4foct8eeb7ob" path="res://Player/Player.tscn" id="6_m5uk7"]
-[ext_resource type="Texture2D" path="res://toriigate.png" id="8_4y37l"]
 [ext_resource type="Texture2D" uid="uid://diy6a1vfngshn" path="res://Assets/bush.png" id="9_vllop"]
 [ext_resource type="Texture2D" uid="uid://bamqapciwebn4" path="res://Assets/pine-tree.png" id="10_8hy1l"]
 [ext_resource type="PackedScene" uid="uid://bsa7prt8i80ay" path="res://card_popup.tscn" id="11_7s637"]
@@ -612,12 +611,10 @@ texture = ExtResource("11_bqlhx")
 [node name="Toriigate2" type="Sprite2D" parent="Control"]
 position = Vector2(1052, -31)
 scale = Vector2(0.507764, 0.527409)
-texture = ExtResource("8_4y37l")
 
 [node name="Toriigate" type="Sprite2D" parent="Control"]
 position = Vector2(45, -31)
 scale = Vector2(0.47205, 0.5)
-texture = ExtResource("8_4y37l")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_mn70u")

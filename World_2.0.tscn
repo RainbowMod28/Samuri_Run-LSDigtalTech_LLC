@@ -2,8 +2,8 @@
 
 [ext_resource type="Script" path="res://Gold.gd" id="1_6q7xo"]
 [ext_resource type="Texture2D" uid="uid://dcujckv7ra7r1" path="res://backgrounds/background-daytime.png" id="1_7phpn"]
-[ext_resource type="Texture2D" uid="uid://boj2r87k3kntl" path="res://tileset.png" id="1_ml0ym"]
-[ext_resource type="Texture2D" uid="uid://bmhj7g0fqhyyl" path="res://tile.png" id="2_d8b1a"]
+[ext_resource type="Texture2D" path="res://tileset.png" id="1_ml0ym"]
+[ext_resource type="Texture2D" path="res://tile.png" id="2_d8b1a"]
 [ext_resource type="Script" path="res://HP.tres.gd" id="2_d65om"]
 [ext_resource type="Texture2D" uid="uid://cfm7duswiv8ap" path="res://Building/buildingdoorway.png" id="2_ndurd"]
 [ext_resource type="Script" path="res://Control.gd" id="3_3cyvx"]

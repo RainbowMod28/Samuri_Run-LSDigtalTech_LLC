@@ -5,3 +5,6 @@ var Gold = 10
 var cardCollection = 0
 
 var shogunHP = 10000
+var damage = 20
+var max_health = 10000
+var current_ShogunHP = 10000

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dly3obefmqfqo"
-path="res://.godot/imported/stone.jpeg-c2e44ba696f67272773dc056dad86b79.ctex"
+uid="uid://npplpq6063t0"
+path="res://.godot/imported/tile_grasstop3.png-5715c63ead5ce8632f8169ecf3c51eea.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://stone.jpeg"
-dest_files=["res://.godot/imported/stone.jpeg-c2e44ba696f67272773dc056dad86b79.ctex"]
+source_file="res://Titlemap_Asssets/tile_grasstop3.png"
+dest_files=["res://.godot/imported/tile_grasstop3.png-5715c63ead5ce8632f8169ecf3c51eea.ctex"]
 
 [params]
 

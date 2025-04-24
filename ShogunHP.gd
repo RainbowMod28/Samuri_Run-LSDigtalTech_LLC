@@ -7,4 +7,4 @@ func _ready():
 
 
 func _process(delta):
-	text = "HP: " + str(Game.shogunHP) 
+	text = "HP: " + str(Game.current_ShogunHP) 

@@ -37,7 +37,7 @@ func check_timer_completion():
 		next_level()
 	else:
 		print("Not enough cards!")
-		get_tree().change_scene_to_file("res://main.tscn")
+		get_tree().change_scene_to_file("res://GameOver.tscn")
 	
 func next_level():
 	get_tree().change_scene_to_file("res://World_2.0.tscn")

@@ -2,8 +2,11 @@ extends Control
 
 signal textbox_closed
 
+@onready var shogun = $ShogunContainer/Shogun
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	set_health($ShogunContainer/ProgressBar, Game.shogunHP, Game.max_health)
 	$Textbox.hide()
 	$Actions.hide()
 	
@@ -13,7 +16,15 @@ func _ready():
 	$Actions.show()
 func update():
 	pass
+ 
+func enemy_turn():
+	pass
 
+func set_health(progress_bar, health, max_health):
+	progress_bar.value = health
+	progress_bar.max_value = max_health
+	#progress_bar.get_node("ShogunHP").text = "HP: %d/%d" % [health, max_health]
+	
 
 func _input(event):
 	if (Input.is_action_just_pressed("ui_accept") or Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT)) and $Textbox.visible:
@@ -52,20 +63,26 @@ func _on_block_pressed():
 
 func _on_attack_1_pressed():
 	display_text("Ngh- That was nothing....")
-	Game.shogunHP -= 50
+	#Game.current_ShogunHP -= 50
+	shogun.take_damage(50)
+	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
 	pass # Replace with function body.
 
 
 func _on_attack_2_pressed():
 	display_text("Ow, that hurts...")
-	Game.shogunHP -= 100
+	#Game.current_ShogunHP -= 100
+	shogun.take_damage(100)
+	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
 	pass # Replace with function body.
 
 
 func _on_super_pressed():
 	display_text("Your power of speech is too much!")
-	Game.shogunHP -= 1000
+	#Game.current_ShogunHP -= 1000
+	shogun.take_damage(1000)
+	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
 	pass # Replace with function body.

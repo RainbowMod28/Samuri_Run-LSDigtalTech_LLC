@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=3 uid="uid://b16oeo8yrywoe"]
+
+[ext_resource type="Script" path="res://gameOver.gd" id="1_nxwag"]
+[ext_resource type="Theme" uid="uid://cfhyoyk2v11ii" path="res://Fonts/ButtonDefault.tres" id="2_pmpbg"]
+[ext_resource type="Theme" uid="uid://bpxpijwice52a" path="res://Fonts/Font_UI.tres" id="3_5q6pq"]
+
+[sub_resource type="Theme" id="Theme_7aypp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fem4t"]
+bg_color = Color(0.0784314, 0.0784314, 0.0784314, 1)
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nxwag")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+theme = SubResource("Theme_7aypp")
+theme_override_styles/panel = SubResource("StyleBoxFlat_fem4t")
+
+[node name="TA Button" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 144.0
+offset_top = 400.0
+offset_right = 368.0
+offset_bottom = 496.0
+theme = ExtResource("2_pmpbg")
+text = "Try Again"
+
+[node name="Quit" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 784.0
+offset_top = 400.0
+offset_right = 1008.0
+offset_bottom = 496.0
+theme = ExtResource("2_pmpbg")
+text = "Quit"
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 352.0
+offset_top = 168.0
+offset_right = 798.0
+offset_bottom = 269.0
+theme = ExtResource("3_5q6pq")
+theme_override_colors/font_color = Color(0.713726, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "GAME OVER"
+
+[connection signal="pressed" from="Panel/TA Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Panel/Quit" to="." method="_on_quit_pressed"]

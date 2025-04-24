@@ -6,15 +6,23 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
 
-
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-func attack():
-	pass
-
 func _ready():
 	anim.play("idle")
+
+func take_damage(amount: int):
+	var old_health = Game.current_ShogunHP
+	Game.current_ShogunHP = max(Game.current_ShogunHP - amount, 0)
+	
+	if Game.current_ShogunHP < old_health:
+		anim.play("Damage")
+		await anim.animation_finished
+		anim.play("idle")
+	
+
+
 
 
 

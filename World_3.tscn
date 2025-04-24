@@ -1,17 +1,28 @@
-[gd_scene load_steps=19 format=3 uid="uid://7401cgqmf2mb"]
+[gd_scene load_steps=21 format=3 uid="uid://7401cgqmf2mb"]
 
 [ext_resource type="Texture2D" uid="uid://c0ip8ircmut5d" path="res://dojo_background___night_by_missypena_d3ga2hl-fullview.jpg" id="1_m508i"]
 [ext_resource type="Script" path="res://Battle.gd" id="1_sdi1r"]
 [ext_resource type="PackedScene" uid="uid://efgcgha2o3sx" path="res://Player/player_2.tscn" id="2_xyqcm"]
 [ext_resource type="PackedScene" uid="uid://d3yfftjkimk25" path="res://Obsticals/Shogun.tscn" id="3_wdkv1"]
+[ext_resource type="FontFile" uid="uid://jv8iad15l56c" path="res://Fonts/gomarice_no_continue.ttf" id="4_crlo7"]
 [ext_resource type="Script" path="res://ShogunHP.gd" id="4_mu3bw"]
 [ext_resource type="Script" path="res://Gold.gd" id="4_ugn72"]
 [ext_resource type="Script" path="res://ProgressBar.gd" id="4_xqhvv"]
 [ext_resource type="Script" path="res://HP.tres.gd" id="5_kh8wv"]
+[ext_resource type="Theme" uid="uid://bpxpijwice52a" path="res://Fonts/Font_UI.tres" id="6_4t36n"]
 [ext_resource type="Script" path="res://Control.gd" id="6_5mbax"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vdvnb"]
 bg_color = Color(1, 0.345098, 0.227451, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0, 0, 0, 1)
+expand_margin_left = 5.0
+expand_margin_top = 5.0
+expand_margin_right = 5.0
+expand_margin_bottom = 5.0
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j3eh5"]
 bg_color = Color(0.113725, 0.713726, 0.360784, 1)
@@ -67,7 +78,7 @@ texture = ExtResource("1_m508i")
 position = Vector2(136, 518)
 scale = Vector2(0.884818, 0.807596)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="ShogunContainer" type="VBoxContainer" parent="."]
 layout_mode = 0
 offset_left = 416.0
 offset_top = 14.0
@@ -76,28 +87,38 @@ offset_bottom = 698.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
+[node name="ProgressBar" type="ProgressBar" parent="ShogunContainer"]
+custom_minimum_size = Vector2(50, 50)
 layout_direction = 2
 layout_mode = 2
+size_flags_vertical = 1
 size_flags_stretch_ratio = 0.0
+theme_override_fonts/font = ExtResource("4_crlo7")
 theme_override_styles/background = SubResource("StyleBoxFlat_vdvnb")
 theme_override_styles/fill = SubResource("StyleBoxFlat_j3eh5")
 max_value = 10000.0
 step = 1.0
 value = 10000.0
 fill_mode = 1
+show_percentage = false
 script = ExtResource("4_xqhvv")
 
-[node name="ShogunHP" type="Label" parent="VBoxContainer/ProgressBar"]
-layout_mode = 2
-offset_left = 1.0
-offset_top = 1.0
-offset_right = 892.0
-offset_bottom = 24.0
+[node name="Label" type="Label" parent="ShogunContainer/ProgressBar"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -30.5
+offset_bottom = 30.5
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("6_4t36n")
+theme_override_font_sizes/font_size = 60
 text = "Shogun HP"
 script = ExtResource("4_mu3bw")
 
-[node name="Node2D" parent="VBoxContainer" instance=ExtResource("3_wdkv1")]
+[node name="Shogun" parent="ShogunContainer" instance=ExtResource("3_wdkv1")]
 position = Vector2(560, 359)
 scale = Vector2(1.124, 1)
 
@@ -222,6 +243,10 @@ offset_right = 29.0
 offset_bottom = 17.0
 grow_horizontal = 2
 grow_vertical = 2
+theme = ExtResource("6_4t36n")
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
 theme_override_font_sizes/font_size = 30
 text = "TEXT Goes Here!"
 
