@@ -1,35 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj": {}
+    "C:\\Users\\Owner\\Documents\\DigtialTechLLC\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj": {
+    "C:\\Users\\Owner\\Documents\\DigtialTechLLC\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\Documents\\DigtialTechLLC\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj",
         "projectName": "Samuri Run",
-        "projectPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\Samuri Run.csproj",
-        "packagesPath": "C:\\Users\\brooklynn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brooklynn\\OneDrive\\Documents\\Digtial Tech Games\\Samuri_Run-LSDigtalTech_LLC\\Samuri_Run_1.0\\.godot\\mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\Owner\\Documents\\DigtialTechLLC\\Samuri_Run-LSDigtalTech_LLC\\Samuri Run.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\Documents\\DigtialTechLLC\\Samuri_Run-LSDigtalTech_LLC\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\brooklynn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,23 +32,28 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Godot.SourceGenerators": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.4.1, )"
             },
             "GodotSharp": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.4.1, )"
             },
             "GodotSharpEditor": {
               "target": "Package",
-              "version": "[4.1.2, )"
+              "version": "[4.4.1, )"
             }
           },
           "imports": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

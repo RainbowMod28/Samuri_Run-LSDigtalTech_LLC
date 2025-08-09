@@ -8,7 +8,7 @@ func _ready():
 
 
 func _on_quit_pressed():
-	"res://World.tscn"
+	pass
 
 
 func _on_play_pressed():

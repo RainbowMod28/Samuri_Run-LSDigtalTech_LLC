@@ -13,7 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://edk5nn7af2yb" path="res://samurai1jump2.png" id="7_55uwj"]
 [ext_resource type="Texture2D" uid="uid://8185efo5s7xe" path="res://samurai1walk1-removebg-preview.png" id="8_yb3bh"]
 [ext_resource type="Texture2D" uid="uid://bar7do3t30gdf" path="res://samurai1walk2-removebg-preview.png" id="9_ig74p"]
-[ext_resource type="AudioStream" uid="uid://chqtrrj65si0t" path="res://SoundEffects/667297__pekena_larva__voc_male_jump_05.wav" id="14_4gpl2"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i60x2"]
 radius = 24.25
@@ -37,7 +36,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("5_vajen")
 }],
-"loop": true,
+"loop": false,
 "name": &"HitFlash",
 "speed": 6.0
 }, {
@@ -141,6 +140,9 @@ _data = {
 "Walk": SubResource("Animation_r38di")
 }
 
+[sub_resource type="AudioStream" id="AudioStream_btbcq"]
+resource_local_to_scene = true
+
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
 scale = Vector2(2.27954, 2.04966)
 script = ExtResource("1_4wj3e")
@@ -167,5 +169,4 @@ libraries = {
 [node name="AnimationTree" type="AnimationTree" parent="."]
 
 [node name="Jump" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("14_4gpl2")
-volume_db = 7.091
+stream = SubResource("AudioStream_btbcq")

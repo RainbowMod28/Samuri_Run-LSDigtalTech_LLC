@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://djeg76elc7vsf"]
 
-[ext_resource type="Script" path="res://addons/godot_whisper/model_downloader.gd" id="1_elf5c"]
+[ext_resource type="Script" uid="uid://bmmns80oxcudi" path="res://addons/godot_whisper/model_downloader.gd" id="1_elf5c"]
 
 [node name="WhisperDock" type="VBoxContainer" node_paths=PackedStringArray("option_button")]
 anchors_preset = 15

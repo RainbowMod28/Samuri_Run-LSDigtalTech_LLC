@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bra8c2mq3v8gs"]
 
-[ext_resource type="Script" path="res://Obsticals nonhuman/toro_1.gd" id="1_j3a6l"]
-[ext_resource type="Texture2D" uid="uid://bl33w3etrsawh" path="res://Obsticals nonhuman/toro1.png" id="1_kbdqm"]
+[sub_resource type="Resource" id="Resource_sr17r"]
+metadata/__load_path__ = "res://Obsticals nonhuman/toro_1.gd"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bkx5l"]
 size = Vector2(22, 75)
@@ -9,8 +9,11 @@ size = Vector2(22, 75)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_emctd"]
 size = Vector2(20, 75)
 
+[sub_resource type="Resource" id="Resource_ve3db"]
+metadata/__load_path__ = "res://Obsticals nonhuman/toro1.png"
+
 [node name="Toro1" type="CharacterBody2D"]
-script = ExtResource("1_j3a6l")
+script = SubResource("Resource_sr17r")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 7.5)
@@ -28,4 +31,4 @@ position = Vector2(0, -7.5)
 [node name="Toro1" type="Sprite2D" parent="."]
 position = Vector2(5.72205e-06, 0)
 scale = Vector2(0.466292, 0.505556)
-texture = ExtResource("1_kbdqm")
+texture = SubResource("Resource_ve3db")

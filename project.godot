@@ -17,7 +17,6 @@ config/icon="res://icon.svg"
 
 [audio]
 
-buses/default_bus_layout="res://addons/new_audio_bus_layout2.tres"
 general/text_to_speech=true
 driver/enable_input=true
 

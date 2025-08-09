@@ -18,6 +18,3 @@ func _on_body_entered(body): #This is for changing to the next level
 
 func _physics_process(_delta):
 	pass
-
-
-

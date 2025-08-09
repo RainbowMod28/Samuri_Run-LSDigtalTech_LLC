@@ -1,13 +1,10 @@
-res://World_3.tscn
+res://speech_scene.tscn
 res://addons/godot-whisper/addons/godot_whisper/label_transcribe.gd
 res://background.gd
 res://popup.gd
 res://Fonts/ButtonDefault.tres
 res://Player/Player.gdshader
-res://main.tscn
 res://pause_menu.tscn
-res://Player/Player.tscn
-res://world_2.tscn
 res://Obsticals/enemy.tscn
 res://scene_changer.tscn
 res://popup.tscn
@@ -16,15 +13,9 @@ res://Obsticals/Shogun.tscn
 res://Player/player_2.tscn
 res://background2.tscn
 res://Spider.tscn
-res://speech_scene.tscn
-res://card_popup.tscn
-res://Collectables/coin.tscn
-res://World_2.0.tscn
 res://Obsticals nonhuman/Movingplatform.tscn
 res://LevelCompletion.tscn
 res://GameOver.tscn
 res://World_1.tscn
-res://Battle.gd
-res://Global/Game.gd
-res://Obsticals/Shogun.gd
-res://ShogunHP.gd
+res://World_2.0.tscn
+res://Player/Player.tscn

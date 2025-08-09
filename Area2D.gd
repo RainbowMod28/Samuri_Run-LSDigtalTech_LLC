@@ -25,4 +25,3 @@ func check_gold_count():
 		return true
 	else:
 		return false
-

@@ -57,7 +57,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("13_xvond")
 }],
-"loop": true,
+"loop": false,
 "name": &"Attack",
 "speed": 24.0
 }, {
@@ -120,6 +120,4 @@ script = ExtResource("1_djmoa")
 position = Vector2(4.99998, -1)
 scale = Vector2(0.215111, 0.184778)
 sprite_frames = SubResource("SpriteFrames_srkht")
-animation = &"Damage"
-frame = 7
-frame_progress = 1.0
+animation = &"Attack"

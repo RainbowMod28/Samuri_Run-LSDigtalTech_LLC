@@ -22,7 +22,11 @@ func take_damage(amount: int):
 		anim.play("idle")
 	
 
-
+func attack():
+	anim.play("Attack")
+	Game.playerHP -= 20
+	await anim.animation_finished
+	anim.play("idle")
 
 
 
@@ -44,8 +48,3 @@ func take_damage(amount: int):
 		#velocity.x = move_toward(velocity.x, 0, SPEED)
 
 	#move_and_slide()
-
-
-
-
-

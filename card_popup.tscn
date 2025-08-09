@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://bsa7prt8i80ay"]
 
-[ext_resource type="Script" path="res://card_popup.gd" id="1_j2cx3"]
+[ext_resource type="Script" uid="uid://b1hs87hgmxbjs" path="res://card_popup.gd" id="1_j2cx3"]
 [ext_resource type="AudioStream" uid="uid://ddlin5qclcl1b" path="res://SoundEffects/758819__universfield__magical-twinkle.mp3" id="2_6gtni"]
 [ext_resource type="Texture2D" uid="uid://dtr5kgdjfpffl" path="res://Cards/Untitled_Artwork-1.png" id="2_fn1i2"]
 [ext_resource type="Texture2D" uid="uid://3w4nemqiflyl" path="res://Cards/Untitled_Artwork-2.png" id="3_mqews"]

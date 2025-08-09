@@ -1,8 +1,8 @@
-[gd_scene load_steps=20 format=3 uid="uid://castmopuoecbl"]
+[gd_scene load_steps=23 format=3 uid="uid://castmopuoecbl"]
 
 [ext_resource type="Script" path="res://World_1.gd" id="1_51a2g"]
 [ext_resource type="Texture2D" uid="uid://cyqpvsq7r6h77" path="res://backgrounds/background-morning.png" id="1_lc8as"]
-[ext_resource type="Texture2D" path="res://tileset.png" id="1_ypspr"]
+[ext_resource type="Texture2D" uid="uid://rtwv41qnlygk" path="res://Titlemap_Asssets/tileset.png" id="1_ypspr"]
 [ext_resource type="Script" path="res://Gold.gd" id="2_4q8wr"]
 [ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_druxp"]
 [ext_resource type="Theme" uid="uid://bpxpijwice52a" path="res://Fonts/Font_UI.tres" id="3_e7vdb"]
@@ -16,6 +16,9 @@
 [ext_resource type="Texture2D" uid="uid://c8fi8h4xiemf8" path="res://Assets/japanese-magnolia-tree.png" id="11_bqlhx"]
 [ext_resource type="Script" path="res://Coins.gd" id="13_yumi3"]
 [ext_resource type="PackedScene" uid="uid://jngfjsgfjsh3" path="res://Collectables/coin.tscn" id="14_yiji0"]
+[ext_resource type="Texture2D" uid="uid://du5nv3an3yqxe" path="res://Obsticals nonhuman/signup.webp" id="17_qucy0"]
+[ext_resource type="Texture2D" uid="uid://d2i6q1w1afdaq" path="res://Obsticals nonhuman/sighright.webp" id="18_wfaqu"]
+[ext_resource type="Texture2D" uid="uid://dvi7yec7tlreg" path="res://Obsticals nonhuman/signleft.webp" id="19_6hnr6"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_4jvpx"]
 
@@ -916,6 +919,26 @@ scale = Vector2(0.280002, 0.291757)
 [node name="Coin31" parent="Coins" instance=ExtResource("14_yiji0")]
 position = Vector2(1032, 372)
 scale = Vector2(0.280002, 0.291757)
+
+[node name="Signup" type="Sprite2D" parent="."]
+position = Vector2(437.5, 367.5)
+scale = Vector2(0.0669192, 0.0618686)
+texture = ExtResource("17_qucy0")
+
+[node name="Signup2" type="Sprite2D" parent="."]
+position = Vector2(248, 152)
+scale = Vector2(0.0770202, 0.0694445)
+texture = ExtResource("17_qucy0")
+
+[node name="Sighright" type="Sprite2D" parent="."]
+position = Vector2(936, 64)
+scale = Vector2(0.0568182, 0.0517677)
+texture = ExtResource("18_wfaqu")
+
+[node name="Signleft" type="Sprite2D" parent="."]
+position = Vector2(912, 368)
+scale = Vector2(0.0546085, 0.0495581)
+texture = ExtResource("19_6hnr6")
 
 [connection signal="ready" from="Background-morning/UI/Control/Timer2" to="Background-morning/UI/Control" method="_on_timer_ready"]
 [connection signal="timeout" from="Background-morning/UI/Control/Timer" to="Background-morning/UI/Control" method="_on_timer_timeout"]

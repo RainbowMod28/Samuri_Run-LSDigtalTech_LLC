@@ -176,4 +176,3 @@ namespace Mircophone_Detection_SpeechProg
 		private System.Windows.Forms.Button button3;
 	}
 }
-

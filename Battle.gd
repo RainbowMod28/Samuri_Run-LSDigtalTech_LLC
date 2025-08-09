@@ -3,8 +3,16 @@ extends Control
 signal textbox_closed
 
 @onready var shogun = $ShogunContainer/Shogun
+@onready var player = $Player2
 
 # Called when the node enters the scene tree for the first time.
+
+func enemy_turn():
+	display_text("NOW IT'S MY TURN")
+	await textbox_closed
+	shogun.attack()
+	player.take_damage()
+
 func _ready():
 	set_health($ShogunContainer/ProgressBar, Game.shogunHP, Game.max_health)
 	$Textbox.hide()
@@ -17,8 +25,6 @@ func _ready():
 func update():
 	pass
  
-func enemy_turn():
-	pass
 
 func set_health(progress_bar, health, max_health):
 	progress_bar.value = health
@@ -57,6 +63,7 @@ func _on_dodge_pressed():
 func _on_block_pressed():
 	display_text("AAAAUUUUGGGGHHH")
 	Game.playerHP -=1
+	player.take_damage()
 	await textbox_closed
 	pass # Replace with function body.
 
@@ -67,7 +74,9 @@ func _on_attack_1_pressed():
 	shogun.take_damage(50)
 	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
-	pass # Replace with function body.
+	enemy_turn()
+	
+	
 
 
 func _on_attack_2_pressed():
@@ -76,7 +85,7 @@ func _on_attack_2_pressed():
 	shogun.take_damage(100)
 	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
-	pass # Replace with function body.
+	enemy_turn()
 
 
 func _on_super_pressed():
@@ -85,4 +94,4 @@ func _on_super_pressed():
 	shogun.take_damage(1000)
 	set_health($ShogunContainer/ProgressBar, Game.current_ShogunHP, Game.max_health)
 	await textbox_closed
-	pass # Replace with function body.
+	enemy_turn()

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://dbykadpaajtk"]
 
 [ext_resource type="Texture2D" uid="uid://47hvft352uju" path="res://Collectables/Untitled_Artwork (4).webp" id="1_lkgni"]
-[ext_resource type="Script" path="res://Collectables/Dumplings.gd" id="1_p1l28"]
+[ext_resource type="Script" uid="uid://b3kjoxes2flua" path="res://Collectables/Dumplings.gd" id="1_p1l28"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_vwmt0"]
 radius = 20.0185

@@ -1,11 +1,21 @@
-[gd_scene load_steps=7 format=3 uid="uid://divbxgdf0lolv"]
+[gd_scene load_steps=9 format=3 uid="uid://divbxgdf0lolv"]
 
-[ext_resource type="Script" path="res://background.gd" id="1_40ixc"]
+[ext_resource type="Script" uid="uid://cr8vf0vqsqcp5" path="res://background.gd" id="1_40ixc"]
 [ext_resource type="Texture2D" uid="uid://b1egeqbfexg33" path="res://middle.png" id="2_e4xig"]
 [ext_resource type="Texture2D" uid="uid://cyqpvsq7r6h77" path="res://backgrounds/background-morning.png" id="2_k52eg"]
-[ext_resource type="Texture2D" uid="uid://d0083pj4sk8n0" path="res://toriigate.png" id="3_gih7t"]
-[ext_resource type="Texture2D" uid="uid://bl33w3etrsawh" path="res://Obsticals nonhuman/toro1.png" id="5_f2y04"]
 [ext_resource type="Texture2D" uid="uid://ce5quqvgvwruw" path="res://Building/temple1.png" id="5_ohyoc"]
+
+[sub_resource type="Resource" id="Resource_splo0"]
+metadata/__load_path__ = "res://toriigate.png"
+
+[sub_resource type="Resource" id="Resource_eq6nc"]
+metadata/__load_path__ = "res://toriigate.png"
+
+[sub_resource type="Resource" id="Resource_bpugw"]
+metadata/__load_path__ = "res://Obsticals nonhuman/toro1.png"
+
+[sub_resource type="Resource" id="Resource_gjjrj"]
+metadata/__load_path__ = "res://Obsticals nonhuman/toro1.png"
 
 [node name="Background" type="ParallaxBackground"]
 script = ExtResource("1_40ixc")
@@ -25,11 +35,11 @@ motion_mirroring = Vector2(1152, 0)
 
 [node name="Toriigate" type="Sprite2D" parent="ParallaxLayer3"]
 position = Vector2(233, 460)
-texture = ExtResource("3_gih7t")
+texture = SubResource("Resource_splo0")
 
 [node name="Toriigate2" type="Sprite2D" parent="ParallaxLayer3"]
 position = Vector2(724, 560)
-texture = ExtResource("3_gih7t")
+texture = SubResource("Resource_eq6nc")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
 motion_mirroring = Vector2(1152, 0)
@@ -90,8 +100,8 @@ flip_h = true
 
 [node name="Toro2" type="Sprite2D" parent="ParallaxLayer2"]
 position = Vector2(943, 579)
-texture = ExtResource("5_f2y04")
+texture = SubResource("Resource_bpugw")
 
 [node name="Toro1" type="Sprite2D" parent="ParallaxLayer2"]
 position = Vector2(193, 564)
-texture = ExtResource("5_f2y04")
+texture = SubResource("Resource_gjjrj")

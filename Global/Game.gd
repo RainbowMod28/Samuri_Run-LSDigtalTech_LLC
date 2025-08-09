@@ -1,6 +1,7 @@
 extends Node
 #The game function from which utiles go after
 var playerHP = 100
+var current_playerHP = 100
 var Gold = 10
 var cardCollection = 0
 

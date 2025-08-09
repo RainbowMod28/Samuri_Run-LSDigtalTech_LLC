@@ -65,6 +65,3 @@ var card_ditc = {
 
 func _on_window_close_requested():
 	popup.hide()
-
-
-

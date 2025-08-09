@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cachvqcmtterf"]
 
-[ext_resource type="Script" path="res://addons/speechtotext/Example.gd" id="1"]
-[ext_resource type="Script" path="res://addons/speechtotext/SpeechToText.gd" id="2"]
+[ext_resource type="Script" uid="uid://blxwegkto017c" path="res://addons/speechtotext/Example.gd" id="1"]
+[ext_resource type="Script" uid="uid://bo4la01fb35de" path="res://addons/speechtotext/SpeechToText.gd" id="2"]
 
 [node name="Example" type="Node2D"]
 script = ExtResource("1")

@@ -43,3 +43,7 @@ C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.dll
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\refint\Samuri Run.dll
 C:\Users\brooklynn\OneDrive\Documents\Digtial Tech Games\Samuri_Run-LSDigtalTech_LLC\Samuri_Run_1.0\.godot\mono\temp\obj\Debug\Samuri Run.pdb
+C:\Users\Owner\Documents\DigtialTechLLC\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\Samuri Run.csproj.AssemblyReference.cache
+C:\Users\Owner\Documents\DigtialTechLLC\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\Samuri Run.dll
+C:\Users\Owner\Documents\DigtialTechLLC\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\refint\Samuri Run.dll
+C:\Users\Owner\Documents\DigtialTechLLC\Samuri_Run-LSDigtalTech_LLC\.godot\mono\temp\obj\Debug\Samuri Run.pdb

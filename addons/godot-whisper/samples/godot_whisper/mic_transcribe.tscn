@@ -1,12 +1,12 @@
 [gd_scene load_steps=9 format=3 uid="uid://dibqfutwftm8j"]
 
-[ext_resource type="Script" path="res://samples/godot_whisper/sample_setup.gd" id="1_d8spe"]
+[ext_resource type="Script" uid="uid://c4uur388mx3cn" path="res://samples/godot_whisper/sample_setup.gd" id="1_d8spe"]
 [ext_resource type="AudioStream" uid="uid://cuybt83bwegoq" path="res://samples/godot_whisper/jfk.wav" id="1_qetor"]
-[ext_resource type="Script" path="res://samples/godot_whisper/test_display.gd" id="2_bmtbk"]
-[ext_resource type="Script" path="res://samples/godot_whisper/StartButton.gd" id="3_bbt5i"]
-[ext_resource type="Script" path="res://samples/godot_whisper/enable_mic.gd" id="5_4gpdh"]
-[ext_resource type="Script" path="res://addons/godot_whisper/capture_stream_to_text.gd" id="5_c8lup"]
-[ext_resource type="WhisperResource" path="res://addons/godot_whisper/models/gglm-tiny.en.bin" id="6_1ttbt"]
+[ext_resource type="Script" uid="uid://bm56l65xaroid" path="res://samples/godot_whisper/test_display.gd" id="2_bmtbk"]
+[ext_resource type="Script" uid="uid://ig1pwuv5k2em" path="res://samples/godot_whisper/StartButton.gd" id="3_bbt5i"]
+[ext_resource type="Script" uid="uid://bvgqhfarr0p2w" path="res://samples/godot_whisper/enable_mic.gd" id="5_4gpdh"]
+[ext_resource type="Script" uid="uid://o4gvgvaw42d" path="res://addons/godot_whisper/capture_stream_to_text.gd" id="5_c8lup"]
+[ext_resource type="WhisperResource" uid="uid://dx6igkwira8yd" path="res://addons/godot_whisper/models/gglm-tiny.en.bin" id="6_1ttbt"]
 
 [sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_rhq81"]
 

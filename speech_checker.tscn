@@ -1,11 +1,11 @@
 [gd_scene load_steps=8 format=3 uid="uid://dymyyd15hibik"]
 
-[ext_resource type="Script" path="res://Speech.gd" id="1_dcw2w"]
+[ext_resource type="Script" uid="uid://cc1utlw06kcm8" path="res://Speech.gd" id="1_dcw2w"]
 [ext_resource type="Texture2D" uid="uid://c1rm688nlxly6" path="res://Cards/Untitled_Artwork-7.png" id="2_e78us"]
 [ext_resource type="Texture2D" uid="uid://rd56tyysudaq" path="res://image1_0.jpg" id="2_ndtd6"]
 [ext_resource type="Texture2D" uid="uid://bf116pmpp7wbc" path="res://Obsticals/sensei.png" id="3_7ngst"]
 [ext_resource type="Texture2D" uid="uid://0ftxld6v5s1e" path="res://Obsticals/student1.png" id="4_gbf2x"]
-[ext_resource type="Script" path="res://mic_Dect.cs" id="6_yvksu"]
+[ext_resource type="Script" uid="uid://bcuycdqothx2d" path="res://mic_Dect.cs" id="6_yvksu"]
 
 [sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_lelr4"]
 

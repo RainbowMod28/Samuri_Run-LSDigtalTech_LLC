@@ -10,7 +10,15 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 @onready var anim = get_node("AnimatedSprite2D")
 @onready var jsound = $Jump
 
-
+func take_damage(amount: int):
+	var old_health = Game.current_playerHP
+	Game.current_playerHP = max(Game.current_playerHP - amount, 0)
+	
+	if Game.current_playerHP < old_health:
+		anim.play("Damage")
+		await anim.animation_finished
+		anim.play("idle")
+	
 
 func _ready():
 	anim.play("Idle")
